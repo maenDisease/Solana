@@ -1,40 +1,30 @@
-#app-mount [role=slider] .bar-2H7Q9u {
-    height: 4px;
+.slider-1mmyV6:not(.mini-28oMa3) .grabber-3R-Rx9 {
+    top: 35%;
+}
+
+.grabber-3R-Rx9 {
+    margin-top: -6px;
+    border-radius: 50px;
+    background-color: var(--button-selected-background);
+    border: 1px solid var(--background-primary);
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.slider-1mmyV6:not(.mini-28oMa3) .grabber-3R-Rx9 {
+    top: 35%;
 }
 
 #app-mount .bar-2H7Q9u {
-    background: var(--text-muted);
+    background-color: var(--background-primary);
+    box-shadow:
+        var(--btn-pill-inner-shadow),
+        0 0 1px var(--background-secondary);
 }
 
-
-#app-mount [role=slider] .barFill-3RgCsY {
-    background: var(--brand-experiment);
-}
-
-#app-mount [role=slider] .track-3I-RwH {
-    left: 10px;
-}
-
-#app-mount [role=slider] .grabber-3R-Rx9 {
-    border: 2px solid var(--text-muted);
-    margin-top: 0;
-    background: var(--background-primary);
-    box-shadow: var(--elevation-medium);
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-    transform: translateY(-50%);
-    margin-left: -8px;
-    margin-top: -2px;
-}
-
-#app-mount [role=slider] .grabber-3R-Rx9:hover {
-    border-color: var(--brand-experiment);
-    transition: border-color 0.1s ease 0s;
-}
-
-#app-mount [role=slider].mini-28oMa3 .grabber-3R-Rx9 {
-    width: 12px;
-    height: 12px;
-    top: 100%;
+#app-mount .markDash-1ATsxA {
+    background-color: var(--background-primary);
+    box-shadow: var(--btn-pill-inner-shadow);
+    width: 4px;
+    border-radius: 4px;
 }
