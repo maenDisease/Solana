@@ -1,0 +1,7 @@
+#app-mount ::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+#app-mount ::-webkit-scrollbar-thumb {
+    background-color: var(--scroller-color);
+}

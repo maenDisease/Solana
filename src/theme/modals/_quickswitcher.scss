@@ -1,0 +1,30 @@
+.quickswitcher-pKcM9U {
+    border: var(--background-tertiary-border);
+    padding: 0;
+}
+
+.quickswitcher-pKcM9U .scroller-2qwVWY {
+    --background-secondary-alt: transparent;
+    margin-right: 0;
+    background-color: transparent;
+}
+
+.quickswitcher-pKcM9U .input-3r5zZY {
+    border-radius: 0;
+    background-color: transparent;
+    border-bottom: var(--background-secondary-border);
+}
+
+.quickswitcher-pKcM9U .protip-1jXzAl {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.quickswitcher-pKcM9U .result-u66Ywh {
+    margin-left: 16px;
+    border-radius: 6px;
+}
+
+.quickswitcher-pKcM9U .result-u66Ywh[aria-selected=true] {
+    background: var(--background-primary);
+}

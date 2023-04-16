@@ -1,0 +1,54 @@
+.button-ejjZWC {
+    border-radius: 6px;
+}
+
+.lookFilled-1H2Jvj.colorRed-2VFhM4 {
+    border-top: 1px solid var(--button-danger-background-460);
+    border-bottom: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+
+.lookFilled-1H2Jvj.colorRed-2VFhM4:hover {
+    border-top: 1px solid var(--button-danger-background);
+}
+
+.lookOutlined-3yKVGo.colorRed-2VFhM4:hover {
+    border-top: 1px solid var(--button-danger-background-460);
+}
+
+.button-ejjZWC.lookFilled-1H2Jvj.colorPrimary-2-Lusz {
+    color: var(--interactive-active);
+    background-color: var(--button-selected-background);
+    border-bottom: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.button-ejjZWC.lookFilled-1H2Jvj.colorPrimary-2-Lusz:hover {
+    background-color: var(--background-modifier-hover);
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.lookFilled-1H2Jvj.colorBrand-2M3O3N:not(.button-1EGGcP):hover {
+    background-color: var(--brand-experiment-440);
+}
+
+.button-ejjZWC.lookFilled-1H2Jvj {
+    border-radius: 6px;
+    box-shadow: var(--btn-outer-shadow);
+}
+
+.button-ejjZWC.lookFilled-1H2Jvj.colorBrand-2M3O3N:not(.button-1EGGcP) {
+    border: 1px solid transparent;
+    border-top: 1px solid var(--brand-experiment-460);
+}
+
+.button-ejjZWC.lookFilled-1H2Jvj.colorBrand-2M3O3N:not(.button-1EGGcP):hover {
+    border-top: 1px solid var(--brand-experiment);
+}
+
+.button-ejjZWC.lookOutlined-3yKVGo {
+    border-radius: 6px;
+}

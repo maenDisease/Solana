@@ -1,0 +1,7 @@
+#app-mount .customColorPicker-C_jddW {
+    border-radius: 8px;
+    background-color: var(--background-floating);
+    backdrop-filter: blur(var(--background-floating-blur-calc));
+    border: var(--background-floating-border);
+    animation: floatingtranstion 0.5s 0.2s forwards;
+}

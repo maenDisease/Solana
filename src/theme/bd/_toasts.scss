@@ -1,0 +1,9 @@
+.bd-toast {
+    border: var(--background-primary-border);
+}
+
+#app-mount .bd-addon-error {
+    border: var(--background-primary-border);
+    background-color: var(--background-primary);
+    border-radius: 8px;
+}

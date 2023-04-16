@@ -1,0 +1,159 @@
+/* Discord added this :D */
+/* .container-3XgAHv .embedWrapper-1MtIDg:not(.markup-eYLPri, .galleryImage-1yhJCI),
+.container-3XgAHv .embedWrapper-1MtIDg .embedVideo-2ixt5A,
+.container-3XgAHv .wrapper-1FP9YQ {
+    height: auto !important;
+    width: unset !important;
+    max-width: max-content !important;
+    max-height: 300px;
+}
+
+.container-3XgAHv .embedWrapper-1MtIDg .clickableWrapper-2WTAkL img:not(.embedGalleryImageElement-2VNYIN),
+.container-3XgAHv .embedWrapper-1MtIDg [data-fullscreen="false"] video {
+    position: relative;
+    height: auto !important;
+    width: unset !important;
+    max-width: 100% !important;
+    max-height: 300px;
+}
+
+.thin-31rlnD .embedWrapper-1MtIDg:not(.markup-eYLPri, .galleryImage-1yhJCI),
+.thin-31rlnD .embedWrapper-1MtIDg .embedVideo-2ixt5A,
+.thin-31rlnD .wrapper-1FP9YQ {
+    height: auto !important;
+    width: unset !important;
+    max-width: max-content !important;
+    max-height: 300px;
+}
+
+.thin-31rlnD .embedWrapper-1MtIDg .clickableWrapper-2WTAkL img:not(.embedGalleryImageElement-2VNYIN),
+.thin-31rlnD .embedWrapper-1MtIDg [data-fullscreen="false"] video {
+    position: relative;
+    height: auto !important;
+    width: unset !important;
+    max-width: 100% !important;
+    max-height: 300px;
+} */
+
+.container-3XgAHv .embedSpotify-1rDvOE.embedWrapper-1MtIDg,
+.thin-31rlnD .embedSpotify-1rDvOE.embedWrapper-1MtIDg {
+    max-height: 80px;
+}
+
+.wrapper-1gVUIN.noChat-2UYgeE.video-3n15R6.chatSidebarOpen--YCxhs {
+    background-color: transparent;
+}
+
+.chatTarget-3H6mpC.floating-3M3WeH {
+    background-color: transparent
+}
+
+.chatTarget-3H6mpC.container-3XgAHv+.resizeHandle-PBRzPC {
+    width: 0;
+    z-index: 1;
+}
+
+.chatTarget-3H6mpC.container-3XgAHv+.resizeHandle-PBRzPC::before {
+    content: "";
+    height: 100%;
+    width: 5px;
+    display: block;
+}
+
+.container-3XgAHv {
+    -webkit-filter: none;
+    filter: none;
+    border-radius: 0 var(--window-border-radius-calc) var(--window-border-radius-calc) 0;
+    overflow: hidden;
+    background: var(--background-floating-60a);
+    border-left: var(--background-tertiary-border);
+    backdrop-filter: blur(var(--background-floating-blur-calc));
+}
+
+.container-3XgAHv.floating-3M3WeH::before {
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border-radius: 0 var(--window-border-radius-calc) var(--window-border-radius-calc) 0;
+}
+
+.chat-2ZfjoI.threadSidebarOpen-1LSXvU~div .container-3XgAHv,
+.chat-2ZfjoI.threadSidebarOpen-1LSXvU~.container-3XgAHv {
+    border-top: var(--background-tertiary-border-variable-width-a);
+    border-right: var(--background-tertiary-border-variable-width-a);
+    border-bottom: var(--background-tertiary-border-variable-width-a);
+}
+
+#app-mount .chat-2ZfjoI.threadSidebarOpen-1LSXvU:not(.threadSidebarFloating-uC2s6v) {
+    border-radius: var(--window-border-radius-calc) 0 0 var(--window-border-radius-calc);
+    border-right: 0;
+}
+
+.chat-2ZfjoI.threadSidebarOpen-1LSXvU.threadSidebarFloating-uC2s6v {
+    border-radius: var(--window-border-radius-calc);
+}
+
+.wrapper-1gVUIN.chatSidebarOpen--YCxhs .callContainer-HtHELf {
+    border-radius: 0;
+}
+
+.container-3XgAHv .container-ZMc96U.themed-Hp1KC_ {
+    background-color: transparent;
+}
+
+.container-3XgAHv .chat-1-OBC7:before {
+    display: none;
+}
+
+.container-3XgAHv .iconWrapper-3plkqh {
+    background-color: var(--background-primary);
+    border: var(--background-primary-border);
+}
+
+.container-3XgAHv .iconWrapper-3plkqh .icon-382itv {
+    color: var(--interactive-active);
+}
+
+.container-3XgAHv .form-3gdLxP {
+    border-top: thin solid transparent;
+}
+
+.chatHeaderBar-2fUORh {
+    background-color: var(--background-floating);
+    box-shadow: var(--elevation-medium);
+    border-bottom: var(--background-primary-border);
+}
+
+.box-2iMsQm {
+    background-color: transparent;
+    margin-top: 8px;
+    padding-left: 0;
+    display: none;
+}
+
+.chatHeaderBar-2fUORh.narrow-2jjOvw {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.chatHeaderBar-2fUORh.narrow-2jjOvw .chatHeaderBarButton-3q1QVr.button-ejjZWC {
+    height: unset;
+    min-height: unset;
+}
+
+.container-27JV1h .heading-xxl-medium-1hl0GL,
+.container-27JV1h .heading-xxl-normal-3zbV4t {
+    font-family: var(--font-display);
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.iconWrapper-3FqQ75 {
+    margin-top: 0;
+    background-color: transparent;
+}
+
+.container-27JV1h .tags-2Siay7 {
+    padding: 0 4px 4px 4px;
+}

@@ -1,0 +1,270 @@
+.mainCard-3KBsBI {
+    background-color: var(--background-primary);
+    border: var(--background-primary-border);
+    border-radius: 8px;
+}
+
+#app-mount .container-3wLKDe {
+    background-color: transparent;
+}
+
+.mainCard-3KBsBI .container-JhuCwn.collapsed-23aTv6 {
+    cursor: unset;
+}
+
+.mainCard-3KBsBI.header-1Uy0p6:hover:not(.headerBorder-jrk0Ic) {
+    border: var(--background-primary-border);
+}
+
+.mainCard-3KBsBI form .title-1v5ZfI {
+    font-size: 16px;
+    line-height: 26px;
+    padding-left: 6px;
+}
+
+.mainCard-3KBsBI form .title-1v5ZfI::placeholder {
+    font-size: 16px !important;
+    line-height: 26px;
+    padding-left: 6px;
+}
+
+.mainCard-3KBsBI form .uploadInput-3fblkw {
+    position: relative;
+    width: 78px;
+    height: 78px;
+    background-color: var(--background-secondary);
+    border: var(--background-primary-border);
+    border-radius: 12px;
+}
+
+.mainCard-3KBsBI form .upload-vLbqu- {
+    background-color: var(--background-primary);
+    border-radius: 12px;
+    box-shadow: none;
+}
+
+.mainCard-3KBsBI form .popout-2vZMlk {
+    height: fit-content;
+    padding-bottom: 0px;
+}
+
+.mainCard-3KBsBI form .titleContainer-2YK93J .input-3O04eu {
+    border: var(--background-primary-border);
+}
+
+.card-2JNtco .postTitleText-2ARr84 {
+    font-family: var(--font-display);
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.hasUnreads-3kKLnS:before {
+    position: absolute;
+    top: 4px;
+    height: 6px;
+    width: 6px;
+    margin-left: 4px;
+    border-radius: 50%;
+}
+
+.reaction-102jx9 {
+    border-radius: 6px;
+    border: var(--background-primary-border);
+    box-shadow: var(--box-shadow-outer-3);
+}
+
+.reaction-102jx9.reactionMe-2zhiyZ {
+    background: var(--button-brand-gradient);
+    border: 1px solid transparent;
+    border-top-color: var(--brand-experiment-460);
+}
+
+.authorContainer-3m1uzW .text-md-normal-2rFCH3 {
+    font-weight: 600;
+}
+
+.channelTextArea-3xG1BQ {
+    margin-top: 4px;
+    border-radius: 8px;
+    background-color: var(--background-secondary);
+    padding: 8px;
+    border: var(--background-primary-border);
+    width: calc(100% - 16px - 14px);
+}
+
+.channelTextArea-3xG1BQ,
+.channelTextAreaInner-2_mflx {
+    min-height: 44px;
+}
+
+.channelTextArea-3xG1BQ .scrollableContainer-15eg7h {
+    box-shadow: none;
+}
+
+.mainCard-3KBsBI form .tagList-2APRrt {
+    padding-bottom: 4px;
+}
+
+.pill-3pRQlO {
+    background-color: var(--background-secondary);
+    border: var(--background-primary-border);
+    box-shadow: var(--box-shadow-outer-3);
+    height: 32px;
+}
+
+#app-mount .pill-3pRQlO.selected-24z1Ou {
+    border-color: var(--text-positive);
+    background-color: var(--button-positive-background)
+}
+
+#app-mount .pill-3pRQlO.selected-24z1Ou:not(.disabled-3Rezaw):hover {
+    background-color: var(--button-positive-background-hover)
+}
+
+#app-mount .pill-3pRQlO.selected-24z1Ou .defaultColor-24IHKz {
+    color: #fff;
+}
+
+#app-mount .tagsContainer-2bBw1x .sortDropdown-hY93nR,
+#app-mount .tagsContainer-2bBw1x .tagsButton-4pwOKH {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.tagsContainer-2bBw1x .sortDropdown-hY93nR .sort-37NWdz svg {
+    margin-left: 0;
+}
+
+.tagsContainer-2bBw1x .sortDropdown-hY93nR .select-Zz0IcO .icons-2dXYop {
+    margin-left: 4px;
+    border-radius: 4px;
+}
+
+.container-2kTWmC .item-1Mjtru:hover:not(.disabled-Mmpvl7) .text-md-semibold-3xVVGu {
+    color: var(--interactive-active) !important;
+}
+
+.form-25Aujy .mediaButton-3lZSdn {
+    border: var(--background-primary-border);
+}
+
+#app-mount .reaction-102jx9.reactionMe-2zhiyZ .reactionCount-SWXh9W {
+    color: #fff;
+}
+
+.container-3wLKDe .sortContainer-33Xf0u {
+    align-items: center;
+}
+
+.container-3wLKDe .sortContainer-33Xf0u .value-26hJ01 {
+    margin-right: 8px;
+}
+
+.body-hCVwsC.hasUnreads-3kKLnS .text-sm-medium-2-Xzsi {
+    color: var(--interactive-normal) !important;
+}
+
+.container-3kfp0r {
+    border-radius: 8px;
+    background-color: var(--background-floating);
+    backdrop-filter: blur(var(--background-floating-blur-calc));
+    border: var(--background-floating-border);
+    animation: floatingtranstion 0.5s 0.2s forwards;
+}
+
+.container-3YcgdM {
+    margin: 0 0 0 4px;
+    border-radius: 8px;
+    background-color: var(--background-floating);
+    border-top: none;
+    box-shadow: var(--elevation-medium);
+    border: var(--background-primary-border);
+    width: fit-content;
+    margin-left: auto;
+}
+
+.container-3YcgdM.header-1RJoTb {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.container-3YcgdM+.divider-AZrXIA {
+    display: none;
+}
+
+.addReactButton-3bSQb6 {
+    background-color: transparent;
+    border: none;
+    margin-right: 4px;
+}
+
+.buttonInner-3aRbcx {
+    background-color: var(--background-primary);
+    border: var(--background-primary-border);
+    box-shadow: var(--box-shadow-outer-3);
+}
+
+.tagsContainer-2bBw1x .tagsButton-4pwOKH {
+    background: none;
+    box-shadow: none;
+}
+
+.tagsContainer-2bBw1x .tagList-1CiR0h {
+    padding-bottom: 4px;
+}
+
+.tagsContainer-2bBw1x .sortDropdown-hY93nR,
+.tagsContainer-2bBw1x .tagsButton-4pwOKH {
+    margin-bottom: 4px;
+}
+
+/* 6.11 Browse Channels */
+.chat-2ZfjoI .content-1jQy2l .chat-2ZfjoI {
+    border-radius: 0;
+    background-color: transparent;
+    border: none;
+}
+
+.search-kg4MrS {
+    background-color: transparent;
+    box-shadow: var(--background-secondary-box-shadow-border-a);
+}
+
+.channelRow-4X_3fi {
+    border-left: var(--background-primary-border);
+    border-right: var(--background-primary-border);
+    justify-content: start;
+}
+
+.channelRow-4X_3fi.firstChannel-3vAGDY {
+    border-top: var(--background-primary-border);
+}
+
+.lastChannel-21yyBC {
+    border-bottom: var(--background-primary-border);
+}
+
+.categoryRow-2VIZ6m .categoryText-35ACGA {
+    text-transform: capitalize;
+    font-family: var(--font-display);
+}
+
+.channelText-30KI3D {
+    color: var(--header-primary) !important;
+}
+
+.channelSubtitle-2k6z5J,
+.topic-3svq3- {
+    color: var(--header-secondary);
+}
+
+.channelActions-2FvDct {
+    order: -1;
+    flex-direction: row-reverse;
+    min-width: 123px;
+}
+
+.viewChannelButton-59XD70 {
+    margin-left: 16px;
+    display: none;
+}

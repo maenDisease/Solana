@@ -1,0 +1,11 @@
+.channelTabs-tab:not(.channelTabs-selected):hover {
+    box-shadow: var(--box-shadow-border);
+}
+
+#app-mount .channelTabs-tab.channelTabs-selected {
+    background: var(--brand-experiment);
+}
+
+#app-mount .channelTabs-tab.channelTabs-selected .channelTabs-tabName {
+    color: #fff;
+}

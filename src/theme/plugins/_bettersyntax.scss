@@ -1,0 +1,11 @@
+#app-mount .bettersyntax-buttons {
+    margin-left: unset;
+    margin-top: unset;
+    height: unset;
+    width: 100%;
+    background-color: var(--background-primary) !important;
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    border-radius: 0 0 8px 8px;
+}

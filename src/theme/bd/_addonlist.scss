@@ -1,0 +1,34 @@
+.bd-addon-list {
+    --bdAddonMini-bg-checked: var(--background-primary);
+    --bdAddonMini-bg-unchecked: var(--background-tertiary);
+    --bdAddonMini-bg-unchecked-hover: var(--background-secondary);
+}
+
+.bd-addon-list .bd-controls>.bd-addon-button,
+.bd-addon-list .bd-controls>.bd-addon-button:first-of-type {
+    border-radius: 5px;
+}
+
+.bd-addon-list .bd-controls>.bd-button:last-of-type {
+    border-radius: 5px;
+}
+
+.bd-addon-list .bd-description-wrap {
+    border-radius: 8px;
+    border: var(--background-primary-border);
+}
+
+.bd-addon-card:has(.bd-switch-checked) {
+    border: var(--background-primary-border);
+}
+
+.bd-addon-card:not(:has(.bd-switch-checked), .bd-addon-card-disabled) {
+    background: none;
+    border: var(--background-secondary-border);
+}
+
+.bd-addon-list .bd-description-wrap {
+    background-color: var(--background-floating);
+    -webkit-box-shadow: var(--elevation-stroke), var(--elevation-high);
+    box-shadow: var(--elevation-stroke), var(--elevation-high);
+}

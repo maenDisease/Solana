@@ -1,0 +1,18 @@
+#app-mount .UserDetails-dates-container svg {
+    fill: var(--interactive-normal);
+}
+
+#app-mount .UserDetails-dates-container>div:hover svg {
+    fill: var(--interactive-hover);
+}
+
+#app-mount .UserDetails-badge-connection.UserDetails-badge-verified .UserDetails-badge-verifiedBadge {
+    background: var(--background-floating-80a);
+}
+
+#app-mount .UserDetails-mutualFriends-header,
+#app-mount .UserDetails-mutualServers-header,
+#app-mount .UserDetails-connections-header {
+    font-weight: 600;
+    text-transform: capitalize;
+}

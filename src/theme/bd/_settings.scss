@@ -1,0 +1,206 @@
+.bd-settings-title {
+    color: var(--header-primary);
+    font-weight: 600;
+    cursor: default;
+    flex: 1;
+}
+
+.bd-settings-title.bd-settings-group-title {
+    text-transform: capitalize;
+    font-family: var(--font-display);
+    font-weight: 500;
+}
+
+.bd-settings-group {
+    border-radius: 8px;
+    background-color: var(--background-secondary);
+    border: var(--background-secondary-border);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.bd-settings-group~.bd-settings-group .bd-settings-title {
+    margin-top: 0;
+}
+
+.bd-settings-group>.bd-settings-container>.bd-setting-item:last-child>.bd-setting-divider:last-child {
+    display: none;
+}
+
+.bd-settings-group>.bd-settings-container>.bd-setting-item:last-child {
+    margin-bottom: 0;
+}
+
+.bd-switch-body {
+    --switch-color: var(--background-primary);
+    --symbol1path: none;
+    --symbol2path: none;
+}
+
+.bd-switch input:checked+.bd-switch-body {
+    --symbol1path: none;
+    --symbol2path: none;
+}
+
+.bd-switch-body .bd-switch-slider {
+    left: -4px;
+    height: 24px;
+    margin: 0 0 0 2px;
+}
+
+.bd-switch-body {
+    box-shadow:
+        var(--btn-pill-inner-shadow),
+        0 0 1px var(--background-secondary);
+}
+
+.bd-switch.bd-switch-checked .bd-switch-body {
+    background: var(--button-brand-gradient-inner);
+}
+
+.bd-select-arrow {
+    margin-left: 5px;
+    background-color: var(--background-primary);
+    border: var(--background-primary-border);
+    border-radius: 5px;
+    height: 20px !important;
+    width: 20px !important;
+}
+
+.bd-select {
+    font-weight: 500;
+    justify-content: flex-end;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.bd-select .bd-select-options {
+    background: var(--background-floating);
+    border-radius: 8px;
+    -webkit-box-shadow: var(--elevation-stroke), var(--elevation-high);
+    box-shadow: var(--elevation-stroke), var(--elevation-high);
+    border: var(--background-primary-border);
+    padding: 6px 8px;
+}
+
+.bd-select .bd-select-option {
+    border-radius: 5px;
+}
+
+.bd-select .bd-select-option.selected {
+    color: #fff;
+    background-color: var(--brand-experiment)
+}
+
+.bd-select .bd-select-option:not(.bd-select-option.selected):hover {
+    background: var(--background-modifier-hover);
+    color: var(--interactive-hover);
+}
+
+.bd-number-input {
+    background-color: var(--background-primary);
+    border: var(--background-primary-border);
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.bd-number-input:focus-within {
+    box-shadow: var(--box-shadow-selection-50a)
+}
+
+.bd-select.bd-select-transparent {
+    align-items: center;
+}
+
+.bd-button {
+    border-radius: 6px;
+    box-shadow: var(--btn-outer-shadow);
+}
+
+.bd-button:not(.selected) {
+    box-shadow: none;
+}
+
+.bd-addon-views {
+    padding: 1px;
+    border: var(--background-secondary-border-a);
+    border-radius: 8px;
+    background: var(--background-secondary-a);
+}
+
+.bd-addon-views .bd-view-button {
+    border: 1px solid transparent;
+}
+
+.bd-addon-views .bd-view-button+.bd-view-button {
+    margin-left: 0;
+}
+
+.bd-button.bd-view-button.selected {
+    background-color: var(--button-selected-background);
+    border-top-color: rgba(255, 255, 255, 0.2);
+    box-shadow: var(--btn-outer-shadow);
+}
+
+.bd-addon-views .bd-view-button.selected svg {
+    fill: var(--interactive-active);
+}
+
+.bd-search-wrapper {
+    border-radius: 6px;
+    background-color: transparent;
+    box-shadow: var(--background-secondary-box-shadow-border);
+}
+
+.bd-search-wrapper:focus-within {
+    box-shadow: var(--box-shadow-selection-50a)
+}
+
+.contentColumn-1C7as6>.bd-settings-title:first-child {
+    position: sticky;
+    display: flex;
+    align-items: center;
+    top: 0;
+    width: 200%;
+    padding: 16px;
+    margin-left: -41px;
+    z-index: 10;
+    -webkit-app-region: drag;
+    transform: translateY(-32px);
+    background-color: var(--background-accent-a);
+    box-shadow: var(--elevation-low);
+}
+
+.contentColumn-1C7as6>.bd-settings-title:first-child {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.bd-button.bd-button-title {
+    -webkit-app-region: no-drag;
+}
+
+.theme-light .plugin-input-group .button-collapse {
+    filter: invert(1);
+}
+
+.bd-addon-modal-header h1 {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.bd-addon-modal-footer .bd-button.button-ejjZWC.lookFilled-1H2Jvj.colorBrand-2M3O3N.sizeMedium-2bFIHr {
+    height: unset;
+    min-height: unset;
+    background: var(--button-brand-gradient);
+}
+
+#app-mount .bd-store-card {
+    --background-secondary-alt: var(--background-primary);
+    --background-tertiary: var(--background-secondary);
+    box-shadow: var(--box-shadow-outer-2);
+    border: var(--background-primary-border);
+}

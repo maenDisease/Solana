@@ -8,5 +8,8 @@ export default {
 		source: "https://github.com/maenDisease/Solana",
 		website: "https://maendisease.github.io/",
 		invite: "BShu37e4jg"
-	}
+	},
+	addons: [
+		['./src/addons/_mac-titlebar.scss', 'dist/addons/mac-titlebar.css'],
+	]
 }

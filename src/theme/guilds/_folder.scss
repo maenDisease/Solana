@@ -1,0 +1,37 @@
+.wrapper-38slSD {
+    width: 60px;
+}
+
+.expandedFolderBackground-1kSAf6 {
+    left: 6px;
+}
+
+#app-mount .expandedFolderBackground-1kSAf6.collapsed-uGXEbi,
+#app-mount .expandedFolderBackground-1kSAf6.collapsed-uGXEbi.hover-3m7-WT {
+    background-color: transparent;
+}
+
+#app-mount .folder-241Joy {
+    background-color: transparent;
+}
+
+.expandedFolderBackground-1kSAf6:not(.collapsed-uGXEbi) {
+    background-color: var(--background-modifier-accent);
+    box-shadow: var(--box-shadow-outer-2);
+}
+
+.theme-light .expandedFolderBackground-1kSAf6:not(.collapsed-uGXEbi) {
+    background-color: var(--background-floating-40a);
+}
+
+.expandedFolderBackground-1kSAf6.collapsed-uGXEbi {
+    bottom: 0;
+}
+
+#app-mount .folder-241Joy.hover-3m7-WT svg {
+    color: #fff !important;
+}
+
+#app-mount .folder-241Joy.hover-3m7-WT {
+    background-color: var(--brand-experiment);
+}

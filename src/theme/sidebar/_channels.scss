@@ -1,0 +1,117 @@
+.sidebar-1tnWFu .channel-1Shao0 {
+    max-width: unset;
+}
+
+.name-28HaxV {
+    font-family: var(--font-regular);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.container-q97qHp {
+    color: var(--text-muted);
+}
+
+.wrapper-1S43wv.clickable-2AoIYN .arrow-2HswgU.icon-3zI3d2 {
+    display: none;
+}
+
+.wrapper-1S43wv.clickable-2AoIYN:hover .arrow-2HswgU.icon-3zI3d2 {
+    display: block;
+}
+
+.modeConnected-NrO4cP .name-28HaxV,
+.modeConnected-NrO4cP:hover .name-28HaxV,
+.modeSelected-3DmyhH .name-28HaxV,
+.modeSelected-3DmyhH:hover .name-28HaxV,
+.modeUnread-3Cxepe .name-28HaxV,
+.modeUnread-3Cxepe:hover .name-28HaxV,
+.notInteractive-2tFrlE.modeConnected-NrO4cP .name-28HaxV,
+.notInteractive-2tFrlE.modeSelected-3DmyhH .name-28HaxV {
+    color: var(--text-normal);
+}
+
+.unreadRelevant-2f-VSK {
+    background-color: var(--text-normal);
+}
+
+.theme-light {
+    --font-weight-semibold-1x-light-theme: 500;
+}
+
+#app-mount .divider-3qUeLQ {
+    border-top: var(--background-modifier-accent-border);
+}
+
+.content-1gYQeQ {
+    border-radius: 6px;
+}
+
+.wrapper-NhbLHG.modeConnected-NrO4cP .icon-2W8DHg {
+    color: var(--status-positive);
+}
+
+.wrapper-NhbLHG.modeLocked-3sToxd .icon-2W8DHg {
+    color: var(--status-grey);
+}
+
+.modeUnread-3Cxepe .icon-2W8DHg,
+.modeUnread-3Cxepe:hover .icon-2W8DHg {
+    color: var(--interactive-active);
+}
+
+.content-1gYQeQ .icon-2W8DHg {
+    width: 16px;
+    height: 16px;
+}
+
+.container-q97qHp {
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.unread-36eUEm {
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    margin-top: -3px;
+}
+
+.bar-wDIGjg:not(.mentionsBar-DpLHCy) {
+    background-color: var(--background-floating);
+    border: var(--background-floating-border);
+}
+
+.bar-wDIGjg .barText-1eIsLx {
+    text-transform: capitalize;
+}
+
+.unread-XRkyaQ.container-1qIct8 {
+    display: flex;
+    justify-content: center;
+}
+
+html.app-focused .modeSelected-3DmyhH .content-1gYQeQ,
+html.app-focused .modeSelected-3DmyhH:hover .content-1gYQeQ {
+    background-color: var(--brand-experiment);
+}
+
+html.app-focused .modeSelected-3DmyhH .name-28HaxV,
+html.app-focused .modeSelected-3DmyhH:hover .name-28HaxV {
+    color: #fff;
+}
+
+html.app-focused .modeSelected-3DmyhH .icon-2W8DHg,
+html.app-focused .modeSelected-3DmyhH:hover .icon-2W8DHg {
+    color: #fff;
+}
+
+html.app-focused .modeSelected-3DmyhH .content-1gYQeQ .actionIcon-2sw4Sl,
+html.app-focused .modeSelected-3DmyhH:hover .content-1gYQeQ .actionIcon-2sw4Sl {
+    color: var(--text-normal);
+}
+
+html.app-focused .modeSelected-3DmyhH .content-1gYQeQ .subtitle-3PyFgf,
+html.app-focused .modeSelected-3DmyhH:hover .content-1gYQeQ .subtitle-3PyFgf {
+    color: #fff !important;
+}

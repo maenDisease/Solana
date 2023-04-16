@@ -1,0 +1,55 @@
+.theme-light {
+    --background-primary-l: calc(91% * (1 + var(--window-background-lightness)));
+    --background-secondary-l: calc(94% * (1 + var(--window-background-lightness)));
+    --background-tertiary-l: calc(96% * (1 + var(--window-background-lightness)));
+    --background-accent-l: calc(98% * (1 + var(--window-background-lightness)));
+    --background-floating-l: calc(97% * (1 + var(--floating-background-lightness)));
+
+    --background-primary-border-l: calc(87% * (1 + var(--window-background-lightness)));
+    --background-secondary-border-l: calc(90% * (1 + var(--window-background-lightness)));
+    --background-tertiary-border-l: calc(58% * (1 + var(--window-background-lightness)));
+    --background-floating-border-l: calc(95% * (1 + var(--floating-background-lightness)));
+
+    --header-primary-s: 0%;
+    --header-primary-l: 30%;
+    --header-secondary-s: 10%;
+    --header-secondary-l: 34%;
+    --text-normal-s: 10%;
+    --text-normal-l: 20%;
+    --text-muted-s: 10%;
+    --text-muted-l: 41%;
+    --channels-default-s: 10%;
+    --channels-default-l: 41%;
+
+    --interactive-normal-s: 10%;
+    --interactive-normal-l: 45%;
+    --interactive-muted-s: 0%;
+    --interactive-muted-l: 45%;
+    --interactive-muted-a: 0.45;
+    --interactive-hover-l: 40%;
+    --interactive-active-l: 34%;
+
+    --background-modifier-hover-s: 13%;
+    --background-modifier-hover-l: 84%;
+    --background-modifier-hover-a: 0.25;
+    --background-modifier-active-s: 13%;
+    --background-modifier-active-l: 84%;
+    --background-modifier-active-a: 0.35;
+    --background-modifier-selected-s: 13%;
+    --background-modifier-selected-l: 84%;
+    --background-modifier-selected-a: 0.35;
+    --background-modifier-accent-s: 10%;
+    --background-modifier-accent-l: 72%;
+    --background-modifier-accent-a: 0.34;
+
+    --scroller-color: hsl(0, 0%, 77%);
+    --button-selected-background: #fff;
+    --text-link: hsl(var(--text-link-hue), calc(var(--saturation-factor, 1)*100%), 43.9%);
+
+    --elevation-low:
+        0 1px 0 hsl(var(--background-accent-hue), 6%, 80%, 0.8),
+        0 2px 0 hsl(var(--background-accent-hue), 6%, 80%, 0.15);
+    --elevation-low-a:
+        0 1px 0 hsl(var(--background-accent-hue), 6%, 80%, calc(0.8 * var(--window-opacity))),
+        0 2px 0 hsl(var(--background-accent-hue), 6%, 80%, calc(0.15 * var(--window-opacity)));
+}

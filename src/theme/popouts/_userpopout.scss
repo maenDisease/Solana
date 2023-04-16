@@ -1,0 +1,89 @@
+#account[class*="menu-"][role="menu"] {
+    margin: 4px;
+}
+
+.profileColors-2AgAV4:not(.userProfileModalOuter-2wdWjU) {
+    border: var(--background-floating-border);
+    -webkit-box-shadow: var(--elevation-stroke), var(--elevation-high);
+    box-shadow: var(--elevation-stroke), var(--elevation-high);
+}
+
+.profileColors-2AgAV4 textarea.textarea-_59yqs.input-3O04eu {
+    border: none;
+    background: none;
+}
+
+.userPopout-2j1gM4 {
+    border: var(--background-floating-border);
+    -webkit-box-shadow: var(--elevation-stroke), var(--elevation-high);
+    box-shadow: var(--elevation-stroke), var(--elevation-high);
+    background-color: var(--background-floating);
+    backdrop-filter: blur(var(--background-floating-blur-calc));
+    animation: floatingtranstion 0.5s 0.2s forwards;
+}
+
+@keyframes floatingtranstion {
+    to {
+        background-color: var(--background-floating-80a);
+    }
+}
+
+.userPopout-2j1gM4 .avatar-2Vndt_ {
+    border: 6px solid var(--background-floating);
+    background-color: var(--background-floating);
+}
+
+.bodyInnerWrapper-2bQs1k {
+    background-color: transparent;
+}
+
+.userTagWithNickname-3-znkC {
+    font-family: var(--font-display)
+}
+
+.userTagUsernameNoNickname-2e_xaO,
+.userTagDiscriminatorNoNickname-2HLaIE {
+    font-weight: 500;
+}
+
+.userTagDiscriminatorNoNickname-2HLaIE {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.role-2TIOKu {
+    border: var(--background-primary-border);
+    background: var(--background-primary);
+    border-radius: 6px;
+}
+
+.note-6O4w9y textarea {
+    border-radius: 6px;
+}
+
+.headerText-3g1XK9 {
+    text-transform: capitalize;
+}
+
+.headerText-3g1XK9 {
+    font-weight: 500;
+}
+
+.eyebrow-1Shfyi {
+    text-transform: capitalize;
+}
+
+.userInfoTitle-39qq0Y,
+.bodyTitle-2Az3VQ {
+    font-weight: 600;
+}
+
+.userPopout-2j1gM4 .note-Go5ZP2 .input-3O04eu {
+    border: none;
+    background-color: transparent;
+}
+
+.footer-3naVBw {
+    background-color: transparent;
+}

@@ -1,0 +1,49 @@
+.chat-2ZfjoI .content-1jQy2l .chat-2ZfjoI {
+    border-radius: 0;
+    background-color: transparent;
+    border: none;
+}
+
+.search-kg4MrS {
+    background-color: transparent;
+    box-shadow: var(--background-secondary-box-shadow-border-a);
+}
+
+.channelRow-4X_3fi {
+    border-left: var(--background-primary-border);
+    border-right: var(--background-primary-border);
+    justify-content: start;
+}
+
+.channelRow-4X_3fi.firstChannel-3vAGDY {
+    border-top: var(--background-primary-border);
+}
+
+.lastChannel-21yyBC {
+    border-bottom: var(--background-primary-border);
+}
+
+.categoryRow-2VIZ6m .categoryText-35ACGA {
+    text-transform: capitalize;
+    font-family: var(--font-display);
+}
+
+.channelText-30KI3D {
+    color: var(--header-primary) !important;
+}
+
+.channelSubtitle-2k6z5J,
+.topic-3svq3- {
+    color: var(--header-secondary);
+}
+
+.channelActions-2FvDct {
+    order: -1;
+    flex-direction: row-reverse;
+    min-width: 123px;
+}
+
+.viewChannelButton-59XD70 {
+    margin-left: 16px;
+    display: none;
+}

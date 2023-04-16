@@ -1,0 +1,30 @@
+.container-2kTWmC {
+    width: 250px;
+    border-radius: 8px;
+    background-color: var(--background-floating-80a);
+    backdrop-filter: blur(var(--background-floating-blur-calc));
+    border: var(--background-floating-border);
+}
+
+.didRender-2SiRlm>.container-2kTWmC {
+    background-color: var(--background-floating);
+    animation: floatingtranstion 0.5s 0.2s forwards;
+}
+
+.container-2kTWmC .focused-qp-W9B,
+.container-2kTWmC .item-1Mjtru:hover:not(.disabled-Mmpvl7) {
+    background-color: var(--brand-experiment);
+    color: var(--interactive-active);
+}
+
+.container-2kTWmC .item-1Mjtru:hover:not(.disabled-Mmpvl7) {
+    color: var(--interactive-active);
+}
+
+
+.container-2kTWmC .item-1Mjtru {
+    border-radius: 6px;
+    padding: 6px 8px;
+    margin-bottom: 4px;
+    color: var(--interactive-hover);
+}

@@ -1,0 +1,80 @@
+.wrapper-3Hk9OB:not(:empty)+.container-6sXIoE {
+    border-bottom: none;
+    border-radius: 12px 12px 0 0;
+}
+
+.wrapper-3Hk9OB+.container-6sXIoE {
+    border: var(--background-tertiary-border);
+    border-radius: 12px;
+    background-color: var(--background-floating-40a);
+    margin-bottom: 0;
+}
+
+.wrapper-3Hk9OB:not(:nth-last-child(2)) {
+    border-radius: 0 0 12px 12px;
+    border-top: none;
+}
+
+.panel-2ZFCRb.activityPanel-9icbyU:not(:nth-last-child(3)) {
+    border-radius: 0;
+    border-top: none;
+}
+
+.container-6sXIoE:not(.maximized-vv2Wr0) .details-ntX2k5+.flex-2S1XBF .button-12Fmur.enabled-9OeuTA:first-child {
+    display: none;
+}
+
+.theme-dark .container-6sXIoE.maximized-vv2Wr0 .cover-SwJ-ck[name="QuestionMark_Activity"] {
+    background: url(https://i.imgur.com/kHch9q7.png) center/cover no-repeat, var(--background-modifier-hover);
+}
+
+.theme-dark .container-6sXIoE:not(.maximized-vv2Wr0) .cover-SwJ-ck[name="QuestionMark_Activity"] {
+    background: url(https://i.imgur.com/UZ3LzIp.png) center/cover no-repeat, var(--background-modifier-hover);
+}
+
+.theme-light .container-6sXIoE.maximized-vv2Wr0 .cover-SwJ-ck[name="QuestionMark_Activity"] {
+    background: url(https://i.imgur.com/or0m0Uz.png) center/cover no-repeat, var(--background-modifier-hover);
+}
+
+.theme-light .container-6sXIoE:not(.maximized-vv2Wr0) .cover-SwJ-ck[name="QuestionMark_Activity"] {
+    background: url(https://i.imgur.com/zlyhZel.png) center/cover no-repeat, var(--background-modifier-hover);
+}
+
+.cover-SwJ-ck[name="QuestionMark_Activity"] g {
+    display: none;
+}
+
+.container-6sXIoE.maximized-vv2Wr0 .coverWrapper-YAplwJ {
+    width: calc(100% - 4px);
+    margin-top: 8px;
+    border-radius: 6px;
+    border: var(--background-modifier-accent-border);
+}
+
+.activityButton-5Fs4Aa {
+    right: calc(32px + 4px + 4px);
+}
+
+.container-6sXIoE.maximized-vv2Wr0 .maximizer-RVu85p {
+    top: unset;
+    height: 20px;
+}
+
+.activityButton-5Fs4Aa,
+.maximizer-RVu85p {
+    background-color: transparent;
+    color: var(--interactive-normal);
+    bottom: 4px;
+    height: 20px;
+    pointer-events: all;
+}
+
+.activityButton-5Fs4Aa:hover,
+.maximizer-RVu85p:hover {
+    color: var(--interactive-hover);
+}
+
+.activityButton-5Fs4Aa:active,
+.maximizer-RVu85p:active {
+    color: var(--interactive-active);
+}

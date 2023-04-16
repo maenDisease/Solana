@@ -1,0 +1,37 @@
+#app-mount {
+    background-color: transparent;
+}
+
+.bg-1QIAus {
+    background-color: hsla(0, 0%, calc(var(--background-floating-l) * (1 + var(--background-overlay-color-lightness))), var(--background-overlay-opacity));
+}
+
+body::before,
+body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    z-index: -1;
+}
+
+body::before {
+    background: var(--background-image-calc) var(--background-image-position)/var(--background-image-size) no-repeat;
+}
+
+body::after {
+    backdrop-filter: blur(var(--background-image-blur-calc));
+    background: hsla(var(--background-accent-hue), calc(var(--saturation-factor) * var(--background-accent-saturation)), var(--background-accent-brightness), var(--background-image, var(--background-hue-shift-strength)));
+    mix-blend-mode: hue;
+    will-change: opacity;
+}
+
+#app-mount:not(:-webkit-full-screen) .layers-OrUESM.layers-1YQhyW {
+    margin-top: var(--window-margin-px);
+    margin-bottom: var(--window-margin-px);
+    margin-right: var(--window-margin-px);
+    margin-left: calc(var(--window-margin-left) * 1px);
+}

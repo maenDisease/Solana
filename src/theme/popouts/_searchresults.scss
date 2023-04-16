@@ -1,0 +1,136 @@
+#app-mount .elevationBorderHigh-3drnJX {
+    border: var(--background-floating-border);
+    background-color: var(--background-floating-80a);
+    backdrop-filter: blur(var(--background-floating-blur-calc));
+    -webkit-box-shadow: var(--elevation-stroke), var(--elevation-high);
+    box-shadow: var(--elevation-stroke), var(--elevation-high);
+}
+
+.container-2McqkF {
+    border-radius: 8px;
+}
+
+.option-ayUoaq:after {
+    display: none;
+}
+
+.option-ayUoaq:hover {
+    background-color: var(--brand-experiment);
+    --search-popout-option-non-text-color: #fff;
+}
+
+.option-ayUoaq[aria-selected=true] {
+    background-color: var(--brand-experiment);
+    --search-popout-option-non-text-color: #fff;
+}
+
+.option-ayUoaq {
+    border-radius: 6px;
+}
+
+.option-ayUoaq:hover .plusIcon-1RVszG,
+.option-ayUoaq[aria-selected=true] .plusIcon-1RVszG {
+    color: #fff;
+    display: block;
+}
+
+.option-ayUoaq.user-1dKxvu:hover .displayedNick-1atSpT,
+.option-ayUoaq.user-1dKxvu[aria-selected=true] .displayedNick-1atSpT {
+    color: #fff;
+}
+
+.option-ayUoaq.user-1dKxvu:hover .displayUsername-UTerwm,
+.option-ayUoaq.user-1dKxvu[aria-selected=true] .displayUsername-UTerwm {
+    color: #dcddde;
+}
+
+#app-mount .option-ayUoaq:hover :where(.answer-14OVbQ, .filter-2QaH9y, strong),
+#app-mount .option-ayUoaq[aria-selected=true] :where(.answer-14OVbQ, .filter-2QaH9y, strong) {
+    color: #fff;
+}
+
+
+#app-mount .option-ayUoaq:hover .searchResultChannelCategory-19ujDo,
+#app-mount .option-ayUoaq:hover .searchResultChannelIcon-C-3P9x,
+#app-mount .option-ayUoaq[aria-selected=true] .searchResultChannelCategory-19ujDo,
+#app-mount .option-ayUoaq[aria-selected=true] .searchResultChannelIcon-C-3P9x {
+    color: #fff;
+}
+
+#app-mount .queryContainer-ZunrLZ.focused-2FU0YH {
+    background-color: transparent;
+}
+
+.resultsGroup-cfY57t .header-1BR0Ro {
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.resultsGroup-cfY57t .searchClearHistory-3nIKUO:hover {
+    color: var(--status-danger);
+}
+
+#app-mount .calendarPicker-sDhzdi .react-datepicker {
+    background-color: transparent;
+}
+
+.calendarPicker-sDhzdi .react-datepicker__month {
+    border: var(--background-modifier-accent-border);
+    border-radius: 6px;
+}
+
+#app-mount .calendarPicker-sDhzdi .react-datepicker__header {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+#app-mount .calendarPicker-sDhzdi .react-datepicker__navigation.react-datepicker__navigation--next,
+#app-mount .calendarPicker-sDhzdi .react-datepicker__navigation.react-datepicker__navigation--previous {
+    border: var(--background-modifier-accent-border);
+}
+
+#app-mount .calendarPicker-sDhzdi .react-datepicker__day--disabled,
+#app-mount .calendarPicker-sDhzdi .react-datepicker__day--outside-month,
+#app-mount .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled,
+#app-mount .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled:hover {
+    background-color: transparent;
+    color: var(--text-muted);
+}
+
+#app-mount .calendarPicker-sDhzdi .react-datepicker__current-month {
+    border-bottom: none;
+    font-size: 14px;
+}
+
+#app-mount .calendarPicker-sDhzdi .react-datepicker__day {
+    border: none;
+}
+
+.calendarPicker-sDhzdi .react-datepicker__week:first-of-type>.react-datepicker__day:first-of-type,
+.calendarPicker-sDhzdi .react-datepicker__week:first-of-type>.react-datepicker__day:last-of-type,
+.calendarPicker-sDhzdi .react-datepicker__week:last-of-type>.react-datepicker__day:first-of-type,
+.calendarPicker-sDhzdi .react-datepicker__week:last-of-type>.react-datepicker__day:last-of-type {
+    border-radius: 6px;
+}
+
+.calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--keyboard-selected,
+.calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--selected:hover,
+.calendarPicker-sDhzdi .react-datepicker__day:hover {
+    border-radius: 6px;
+}
+
+.react-datepicker__day.react-datepicker__day--selected:hover::after {
+    display: none;
+}
+
+.searchResultChannelCategory-19ujDo,
+.searchResultChannelIcon-C-3P9x {
+    color: var(--text-muted);
+    opacity: .6;
+}
+
+.option-ayUoaq .answer-14OVbQ,
+.option-ayUoaq .filter-2QaH9y,
+.option-ayUoaq strong {
+    color: var(--text-muted);
+}

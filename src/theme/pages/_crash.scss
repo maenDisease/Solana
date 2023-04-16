@@ -1,0 +1,76 @@
+#app-mount>.errorPage-2pZ2Kq::before,
+#app-mount>.errorPage-2pZ2Kq::after {
+    color: #fff;
+}
+
+.theme-light #app-mount>.errorPage-2pZ2Kq::before,
+.theme-light #app-mount>.errorPage-2pZ2Kq::after {
+    color: black;
+}
+
+.wrapper-3AZUiP.errorPage-2pZ2Kq>.flex-2S1XBF {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    background-color: var(--background-floating-80a);
+    border-radius: 10px;
+    border: var(--background-floating-border);
+    -webkit-box-shadow: var(--elevation-stroke), var(--elevation-high);
+    box-shadow: var(--elevation-stroke), var(--elevation-high);
+    padding: 16px;
+    -webkit-app-region: drag;
+}
+
+.wrapper-3AZUiP.errorPage-2pZ2Kq {
+    background-color: hsla(0, 0%, calc(var(--background-floating-l) * (1 + var(--background-overlay-color-lightness))), var(--background-overlay-opacity));
+}
+
+.wrapper-3AZUiP.errorPage-2pZ2Kq .text-3IbNaT {
+    width: 320px;
+}
+
+.wrapper-3AZUiP.errorPage-2pZ2Kq .button-ejjZWC.sizeLarge-2xP3-w {
+    width: 320px;
+    min-width: 320px;
+    height: 36px;
+    min-height: 36px;
+    background: var(--button-brand-gradient);
+    -webkit-app-region: no-drag;
+}
+
+#app-mount .wrapper-3AZUiP.errorPage-2pZ2Kq .image-35kDIs {
+    background-image: url('https://nyri4.github.io/Discolored/assets/crash.svg');
+    filter: drop-shadow(var(--box-shadow-outer-3));
+    margin-bottom: 20px;
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.theme-dark .wrapper-3AZUiP.errorPage-2pZ2Kq .title-NjUt5y,
+.theme-dark .wrapper-3AZUiP.errorPage-2pZ2Kq .note-Ph806N {
+    color: var(--header-primary);
+}
+
+.wrapper-3AZUiP.errorPage-2pZ2Kq .title-NjUt5y {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: var(--font-display);
+    color: black;
+}
+
+.wrapper-3AZUiP.errorPage-2pZ2Kq .note-Ph806N {
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    margin: 0 0;
+}
+
+.wrapper-3AZUiP.errorPage-2pZ2Kq .note-Ph806N p {
+    margin: 0 0;
+}

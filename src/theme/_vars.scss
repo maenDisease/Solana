@@ -1,0 +1,350 @@
+:root {
+    /* color control */
+    --accent-hue: 213;
+    --accent-saturation: 100%;
+    --accent-brightness: 50%;
+    --background-accent-hue: 213;
+    --background-accent-saturation: 100%;
+    --background-accent-brightness: 50%;
+
+    /* background image */
+    --background-image: initial;
+    --background-image-position: center;
+    --background-image-size: cover;
+    --background-image-blur: 0;
+    --background-overlay-opacity: 80%;
+    --background-overlay-color-lightness: 0;
+    --background-hue-shift-strength: 100%;
+
+    /* window */
+    --window-background-image: initial;
+    --window-background-image-position: center;
+    --window-background-image-attachment: fixed;
+    --window-opacity: 100%;
+    --window-blur: 0;
+    --window-friends-blur: 0;
+    --window-margin: 24;
+    --window-margin-left: 0;
+    --window-border-radius: 10px;
+    --window-background-lightness: 0;
+    --window-accent-tint-strength: 5%;
+
+    /* chat */
+    --chat-bubble: 0;
+    --chat-bubble-background-color: var(--background-primary);
+    --chat-bubble-border-color: var(--background-primary-border-color);
+    --text-link-hue: 212;
+    --chat-text-brightness: 0;
+
+    /* dock */
+    --home-icon: initial;
+    --favorites-icon: initial;
+    --dock-blur: var(--window-blur);
+    --dock-border-radius: 0;
+
+    /* sidebar */
+    --sidebar-width: 240px;
+    --members-width: 240px;
+    --sidebar-text-brightness: 0;
+
+    /* floating */
+    --background-floating-blur: 20px;
+    --floating-background-lightness: 0;
+    --background-floating-opacity: 1;
+    --enable-floating-transparency: 1;
+
+    /* font */
+    --custom-font-display: "";
+    --custom-font-regular: "";
+    --custom-font-primary: "";
+    --custom-font-code: "";
+
+    /* other */
+    --enable-blur: 1;
+}
+
+.theme-dark,
+.theme-light {
+    --float-guildlist-width-correction: 12px;
+
+    --window-background-image-calc: var(--window-background-image, var(--background-image)) var(--window-background-image-position)/cover no-repeat var(--window-background-image-attachment);
+    --background-image-calc: var(--background-image, url(https://i.imgur.com/wDB9XWK.png));
+    --background-image-blur-calc: calc(var(--background-image-blur) * var(--enable-blur));
+    --background-floating-blur-calc: calc(var(--background-floating-blur) * var(--enable-blur));
+    --window-margin-px: calc(var(--window-margin) * 1px);
+    --window-border-radius-calc: calc(min(1, var(--window-margin)) * var(--window-border-radius));
+    --dock-blur-calc: calc(var(--dock-blur, var(--window-blur)) * 1px * var(--enable-blur));
+    --window-blur-calc: calc(var(--window-blur) * 1px * var(--enable-blur));
+    --window-friends-blur-calc: calc(var(--window-friends-blur) * 1px * var(--enable-blur));
+    --window-color-hue: initial;
+    --window-color-lightness: initial;
+    --window-color-calc: hsla(var(--window-color-hue), 100%, var(--window-color-lightness), var(--window-opacity));
+
+    --box-shadow-inner-1: inset 0 2px 2px rgba(0, 0, 0, 0.2);
+    --box-shadow-inner-2: inset 0 0 3px rgba(0, 0, 0, 0.2);
+    --box-shadow-outer-1: 0 0 5px rgba(0, 0, 0, 0.2);
+    --box-shadow-outer-2: 0 3px 10px rgba(0, 0, 0, 0.2);
+    --box-shadow-outer-3: 0 2px 2px rgba(0, 0, 0, 0.2);
+
+    --btn-outer-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    --btn-pill-inner-shadow: inset 0 0 4px rgba(0, 0, 0, 0.1);
+
+    --box-shadow-selection: 0 0 0 4px var(--brand-experiment);
+    --box-shadow-selection-50a: 0 0 0 4px var(--brand-experiment-50a);
+    --box-shadow-border: 0 0 0 1px var(--background-modifier-accent);
+    --button-danger-background-460: hsl(359, calc(var(--saturation-factor, 1)*66.7%), 65.3%);
+
+    --background-modifier-accent-border: 1px solid var(--background-modifier-accent);
+
+    --button-brand-gradient: linear-gradient(var(--brand-experiment) 0%, var(--brand-experiment-445) 100%);
+    --button-brand-gradient-inner: linear-gradient(var(--brand-experiment-445) 20%, var(--brand-experiment) 100%);
+
+    --text-positive: hsl(126, 70%, 45%);
+    --button-positive-background: hsl(126, 70%, 45%);
+    --button-positive-background-hover: hsl(126, 65%, 40%);
+    --button-positive-background-active: hsl(126, 60%, 35%);
+
+    --info-warning-background: hsla(35, 100%, 52%, 0.1);
+    --info-warning-foreground: hsl(35, 100%, 52%);
+
+    --status-positive: hsl(129, calc(var(--saturation-factor, 1) * 67%), 48%);
+    --status-warning: hsl(48, calc(var(--saturation-factor, 1) * 100%), 50%);
+    --status-danger: hsl(3, calc(var(--saturation-factor, 1) * 100%), 59%);
+    --status-grey: hsl(240, 2%, 57%);
+
+    --status-red-500: var(--status-danger);
+    --status-yellow-500: var(--status-warning);
+    --status-green-600: var(--status-positive);
+    --status-grey-500: var(--status-grey);
+    /* --status-orange-100: hsl(18, calc(var(--saturation-factor, 1) * 100%), 98%); */
+
+    --modal-background: var(--background-secondary);
+    --font-display: var(--custom-font-display), BlinkMacSystemFont, "SF Pro Display", 'Inter', "Helvetica Neue", "Helvetica", sans-serif;
+    --font-regular: var(--custom-font-regular), BlinkMacSystemFont, "SF Pro Text", 'Inter', "Helvetica Neue", "Helvetica", sans-serif;
+    --font-primary: var(--custom-font-primary), "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-code: var(--custom-font-code), Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+
+    --background-floating: hsl(var(--background-accent-hue), 4%, var(--background-floating-l));
+    --background-floating-40a: hsla(var(--background-accent-hue), 4%, var(--background-floating-l), calc((var(--background-floating-opacity) + .4) - var(--enable-floating-transparency)));
+    --background-floating-60a: hsla(var(--background-accent-hue), 4%, var(--background-floating-l), calc((var(--background-floating-opacity) + .6) - var(--enable-floating-transparency)));
+    --background-floating-80a: hsla(var(--background-accent-hue), 4%, var(--background-floating-l), calc((var(--background-floating-opacity) + .8) - var(--enable-floating-transparency)));
+    --background-floating-90a: hsla(var(--background-accent-hue), 4%, var(--background-floating-l), calc((var(--background-floating-opacity) + .9) - var(--enable-floating-transparency)));
+
+    --background-primary: hsla(var(--background-accent-hue), var(--window-accent-tint-strength, 5%), var(--background-primary-l), 1);
+    --background-primary-a: hsla(var(--background-accent-hue), var(--window-accent-tint-strength, 5%), var(--background-primary-l), var(--window-opacity));
+
+    --background-secondary: hsla(var(--background-accent-hue), var(--window-accent-tint-strength, 5%), var(--background-secondary-l), 1);
+    --background-secondary-a: hsla(var(--background-accent-hue), var(--window-accent-tint-strength, 5%), var(--background-secondary-l), var(--window-opacity));
+    --background-secondary-80a: hsla(var(--background-accent-hue), var(--window-accent-tint-strength, 5%), var(--background-secondary-l), 0.8);
+
+    --background-tertiary: hsla(var(--background-accent-hue), var(--window-accent-tint-strength, 5%), var(--background-tertiary-l), 1);
+    --background-tertiary-a: hsla(var(--background-accent-hue), var(--window-accent-tint-strength, 5%), var(--background-tertiary-l), var(--window-opacity));
+    --background-tertiary-80a: hsla(var(--background-accent-hue), var(--window-accent-tint-strength, 5%), var(--background-tertiary-l), 0.8);
+    --background-tertiary-90a: hsla(var(--background-accent-hue), var(--window-accent-tint-strength, 5%), var(--background-tertiary-l), 0.9);
+
+    --background-accent: hsla(var(--background-accent-hue), var(--window-accent-tint-strength, 5%), var(--background-accent-l), 1);
+    --background-accent-a: hsla(var(--background-accent-hue), var(--window-accent-tint-strength, 5%), var(--background-accent-l), var(--window-opacity));
+
+    --background-primary-border-color: hsl(var(--background-accent-hue), 4%, var(--background-primary-border-l));
+    --background-primary-border-color-a: hsla(var(--background-accent-hue), 4%, var(--background-primary-border-l), var(--window-opacity));
+    --background-secondary-border-color: hsl(var(--background-accent-hue), 4%, var(--background-secondary-border-l));
+    --background-secondary-border-color-a: hsl(var(--background-accent-hue), 4%, var(--background-secondary-border-l), var(--window-opacity));
+    --background-tertiary-border-color: hsl(var(--background-accent-hue), 4%, var(--background-tertiary-border-l));
+    --background-tertiary-border-color-a: hsla(var(--background-accent-hue), 4%, var(--background-tertiary-border-l), var(--window-opacity));
+    --background-floating-border-color: hsl(var(--background-accent-hue), 4%, var(--background-floating-border-l));
+    --background-floating-primary-border-color-a: hsla(var(--background-accent-hue), 4%, var(--background-primary-border-l), var(--background-floating-opacity));
+
+    --background-primary-border: 1px solid var(--background-primary-border-color);
+    --background-primary-border-a: 1px solid var(--background-primary-border-color-a);
+    --background-secondary-border: 1px solid var(--background-secondary-border-color);
+    --background-secondary-border-a: 1px solid var(--background-secondary-border-color-a);
+    --background-tertiary-border: 1px solid var(--background-tertiary-border-color);
+    --background-tertiary-border-a: 1px solid var(--background-tertiary-border-color-a);
+    --background-floating-border: 1px solid var(--background-floating-border-color);
+    --background-floating-primary-border-a: 1px solid var(--background-floating-primary-border-color-a);
+
+    --background-primary-box-shadow-border: 0 0 0 1px var(--background-primary-border-color);
+    --background-secondary-box-shadow-border: 0 0 0 1px var(--background-secondary-border-color);
+    --background-secondary-box-shadow-border-a: 0 0 0 1px var(--background-secondary-border-color-a);
+    --background-tertiary-box-shadow-border: 0 0 0 1px var(--background-tertiary-border-color);
+
+    --background-tertiary-border-variable-width-a: calc(var(--window-margin-px) * 0.01) solid var(--background-tertiary-border-color-a);
+
+    --header-primary: hsl(var(--background-accent-hue), var(--header-primary-s), var(--header-primary-l));
+    --header-secondary: hsl(var(--background-accent-hue), var(--header-secondary-s), var(--header-secondary-l));
+    --text-normal: hsl(var(--background-accent-hue), var(--text-normal-s), var(--text-normal-l));
+    --text-muted: hsl(var(--background-accent-hue), var(--text-muted-s), var(--text-muted-l));
+    --channels-default: hsl(var(--background-accent-hue), var(--channels-default-s), var(--channels-default-l));
+
+    --interactive-normal: hsl(var(--background-accent-hue), var(--interactive-normal-s), var(--interactive-normal-l));
+    --interactive-hover: hsl(var(--background-accent-hue), var(--interactive-normal-s), var(--interactive-hover-l));
+    --interactive-active: hsl(var(--background-accent-hue), var(--interactive-normal-s), var(--interactive-active-l));
+    --interactive-muted: hsla(var(--background-accent-hue), var(--interactive-muted-s), var(--interactive-muted-l), var(--interactive-muted-a));
+
+    --background-modifier-hover: hsla(var(--background-accent-hue), var(--background-modifier-hover-s), var(--background-modifier-hover-l), var(--background-modifier-hover-a));
+    --background-modifier-active: hsla(var(--background-accent-hue), var(--background-modifier-active-s), var(--background-modifier-active-l), var(--background-modifier-active-a));
+    --background-modifier-selected: hsla(var(--background-accent-hue), var(--background-modifier-selected-s), var(--background-modifier-selected-l), var(--background-modifier-selected-a));
+    --background-modifier-accent: hsla(var(--background-accent-hue), var(--background-modifier-accent-s), var(--background-modifier-accent-l), var(--background-modifier-accent-a));
+}
+
+:root {
+    --brand-experiment: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), var(--accent-brightness));
+    --brand-experiment-100: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), 98%);
+    --brand-experiment-130: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), 94.8%);
+    --brand-experiment-160: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), 91.5%);
+    --brand-experiment-200: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), 88.3%);
+    --brand-experiment-230: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), 85%);
+    --brand-experiment-260: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), 81.8%);
+    --brand-experiment-300: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), 78.5%);
+    --brand-experiment-330: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), 75.3%);
+    --brand-experiment-360: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), 72%);
+    --brand-experiment-400: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), 68.8%);
+    --brand-experiment-430: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), 65.5%);
+    --brand-experiment-460: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), 62.3%);
+    --brand-experiment-445: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), 45%);
+    --brand-experiment-440: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), 40%);
+    --brand-experiment-500: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), var(--accent-brightness));
+    --brand-experiment-530: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*70.5%), 54.3%);
+    --brand-experiment-560: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*56.4%), 49.7%);
+    --brand-experiment-600: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*51.5%), 45%);
+    --brand-experiment-630: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*51.5%), 40.3%);
+    --brand-experiment-660: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*51.5%), 35.7%);
+    --brand-experiment-700: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*51.5%), 31%);
+    --brand-experiment-730: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*51.5%), 26.3%);
+    --brand-experiment-760: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*51.5%), 21.7%);
+    --brand-experiment-800: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*51.5%), 17%);
+    --brand-experiment-830: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*51.5%), 12.3%);
+    --brand-experiment-860: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*51.5%), 7.7%);
+    --brand-experiment-900: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*51.5%), 3%);
+    --brand-experiment-05a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), var(--accent-brightness), 0.05);
+    --brand-experiment-10a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), var(--accent-brightness), 0.1);
+    --brand-experiment-15a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), var(--accent-brightness), 0.15);
+    --brand-experiment-20a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), var(--accent-brightness), 0.2);
+    --brand-experiment-25a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), var(--accent-brightness), 0.25);
+    --brand-experiment-30a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), var(--accent-brightness), 0.3);
+    --brand-experiment-35a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), var(--accent-brightness), 0.35);
+    --brand-experiment-40a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), var(--accent-brightness), 0.4);
+    --brand-experiment-45a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), var(--accent-brightness), 0.45);
+    --brand-experiment-50a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), var(--accent-brightness), 0.5);
+    --brand-experiment-55a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), var(--accent-brightness), 0.55);
+    --brand-experiment-60a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), var(--accent-brightness), 0.6);
+    --brand-experiment-65a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), var(--accent-brightness), 0.65);
+    --brand-experiment-70a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), var(--accent-brightness), 0.7);
+    --brand-experiment-75a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), var(--accent-brightness), 0.75);
+    --brand-experiment-80a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), var(--accent-brightness), 0.8);
+    --brand-experiment-85a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), var(--accent-brightness), 0.85);
+    --brand-experiment-90a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), var(--accent-brightness), 0.9);
+    --brand-experiment-95a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), var(--accent-brightness), 0.95);
+
+    --mention-background: var(--brand-experiment-30a);
+    --brand-100: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 77.8%), 98.2%);
+    --brand-130: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 87.5%), 96.9%);
+    --brand-160: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 84.6%), 94.9%);
+    --brand-200: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 83.3%), 92.9%);
+    --brand-230: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 87%), 91%);
+    --brand-260: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 86.2%), 88.6%);
+    --brand-300: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 86.1%), 85.9%);
+    --brand-330: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 85.1%), 81.6%);
+    --brand-345: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 85.2%), 78.8%);
+    --brand-360: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 86.1%), 77.5%);
+    --brand-400: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 86.1%), 71.8%);
+    --brand-430: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 85.7%), 69.8%);
+    --brand-460: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 85.5%), 67.5%);
+    --brand-500: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 85.6%), 64.7%);
+    --brand-530: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 66.7%), 58.8%);
+    --brand-560: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 51.4%), 52.4%);
+    --brand-600: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 46.7%), 44.1%);
+    --brand-630: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 46.7%), 38.2%);
+    --brand-660: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 47.1%), 33.3%);
+    --brand-700: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 47%), 25.9%);
+    --brand-730: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 46.8%), 24.3%);
+    --brand-760: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 46.9%), 22.2%);
+    --brand-800: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 47.5%), 19.4%);
+    --brand-830: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 47.4%), 14.9%);
+    --brand-860: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 46.9%), 9.6%);
+    --brand-900: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 50%), 3.1%);
+    --brand-new-100: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 77.8%), 98.2%);
+    --brand-new-130: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 87.5%), 96.9%);
+    --brand-new-160: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 84.6%), 94.9%);
+    --brand-new-200: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 83.3%), 92.9%);
+    --brand-new-230: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 87%), 91%);
+    --brand-new-260: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 86.2%), 88.6%);
+    --brand-new-300: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 86.1%), 85.9%);
+    --brand-new-330: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 85.1%), 81.6%);
+    --brand-new-345: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 85.2%), 78.8%);
+    --brand-new-360: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 86.1%), 77.5%);
+    --brand-new-400: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 86.1%), 71.8%);
+    --brand-new-430: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 85.7%), 69.8%);
+    --brand-new-460: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 85.5%), 67.5%);
+    --brand-new-500: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 85.6%), 64.7%);
+    --brand-new-530: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 66.7%), 58.8%);
+    --brand-new-560: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 51.4%), 52.4%);
+    --brand-new-600: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 46.7%), 44.1%);
+    --brand-new-630: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 46.7%), 38.2%);
+    --brand-new-660: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 47.1%), 33.3%);
+    --brand-new-700: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 47%), 25.9%);
+    --brand-new-730: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 46.8%), 24.3%);
+    --brand-new-760: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 46.9%), 22.2%);
+    --brand-new-800: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 47.5%), 19.4%);
+    --brand-new-830: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 47.4%), 14.9%);
+    --brand-new-860: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 46.9%), 9.6%);
+    --brand-new-900: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 50%), 3.1%);
+}
+
+.sidebar-1tnWFu>*:first-child:not(.panels-3wFtMD),
+.container-YkUktl,
+.sidebar-nqHbhN,
+#channelTabs-container {
+    --background-modifier-hover-s: 13%;
+    --background-modifier-hover-l: 48%;
+    --background-modifier-hover-a: 0.16;
+    --background-modifier-active-s: 13%;
+    --background-modifier-active-l: 48%;
+    --background-modifier-active-a: 0.2;
+    --background-modifier-selected-s: 5%;
+    --background-modifier-selected-l: 48%;
+    --background-modifier-selected-a: 0.3;
+    --background-modifier-accent-s: 10%;
+    --background-modifier-accent-l: 48%;
+    --background-modifier-accent-a: 0.34;
+
+    --text-brightness-src: var(--sidebar-text-brightness);
+
+    --header-primary: hsl(var(--background-accent-hue), var(--header-primary-s), calc(var(--header-primary-l) * calc(1 + var(--text-brightness-src))));
+    --header-secondary: hsl(var(--background-accent-hue), var(--header-secondary-s), calc(var(--header-secondary-l) * calc(1 + var(--text-brightness-src))));
+    --text-normal: hsl(var(--background-accent-hue), var(--text-normal-s), calc(var(--text-normal-l) * calc(1 + var(--text-brightness-src))));
+    --text-muted: hsl(var(--background-accent-hue), var(--text-muted-s), calc(var(--text-muted-l) * calc(1 + var(--text-brightness-src))));
+    --channels-default: hsl(var(--background-accent-hue), var(--channels-default-s), calc(var(--channels-default-l) * calc(1 + var(--text-brightness-src))));
+
+    --interactive-normal: hsl(var(--background-accent-hue), var(--interactive-normal-s), calc(var(--interactive-normal-l) * calc(1 + var(--text-brightness-src))));
+    --interactive-hover: hsl(var(--background-accent-hue), var(--interactive-normal-s), calc(var(--interactive-hover-l) * calc(1 + var(--text-brightness-src))));
+    --interactive-active: hsl(var(--background-accent-hue), var(--interactive-normal-s), calc(var(--interactive-active-l) * calc(1 + var(--text-brightness-src))));
+    --interactive-muted: hsla(var(--background-accent-hue), var(--interactive-muted-s), calc(var(--interactive-muted-l) * calc(1 + var(--text-brightness-src))), var(--interactive-muted-a));
+
+    --background-modifier-hover: hsla(var(--background-accent-hue), var(--background-modifier-hover-s), calc(var(--background-modifier-hover-l) * calc(1 - var(--text-brightness-src))), var(--background-modifier-hover-a));
+    --background-modifier-active: hsla(var(--background-accent-hue), var(--background-modifier-active-s), calc(var(--background-modifier-active-l) * calc(1 - var(--text-brightness-src))), var(--background-modifier-active-a));
+    --background-modifier-selected: hsla(var(--background-accent-hue), var(--background-modifier-selected-s), calc(var(--background-modifier-selected-l) * calc(1 - var(--text-brightness-src))), var(--background-modifier-selected-a));
+    --background-modifier-accent: hsla(var(--background-accent-hue), var(--background-modifier-accent-s), calc(var(--background-modifier-accent-l) * calc(1 - var(--text-brightness-src))), var(--background-modifier-accent-a));
+}
+
+.chat-2ZfjoI>.container-ZMc96U,
+.chat-2ZfjoI>.content-1jQy2l,
+#app-mount .container-2cd8Mz {
+    --text-brightness-src: var(--chat-text-brightness);
+
+    --header-primary: hsl(var(--background-accent-hue), var(--header-primary-s), calc(var(--header-primary-l) * calc(1 + var(--text-brightness-src))));
+    --header-secondary: hsl(var(--background-accent-hue), var(--header-secondary-s), calc(var(--header-secondary-l) * calc(1 + var(--text-brightness-src))));
+    --text-normal: hsl(var(--background-accent-hue), var(--text-normal-s), calc(var(--text-normal-l) * calc(1 + var(--text-brightness-src))));
+    --text-muted: hsl(var(--background-accent-hue), var(--text-muted-s), calc(var(--text-muted-l) * calc(1 + var(--text-brightness-src))));
+    --channels-default: hsl(var(--background-accent-hue), var(--channels-default-s), calc(var(--channels-default-l) * calc(1 + var(--text-brightness-src))));
+
+    --interactive-normal: hsl(var(--background-accent-hue), var(--interactive-normal-s), calc(var(--interactive-normal-l) * calc(1 + var(--text-brightness-src))));
+    --interactive-hover: hsl(var(--background-accent-hue), var(--interactive-normal-s), calc(var(--interactive-hover-l) * calc(1 + var(--text-brightness-src))));
+    --interactive-active: hsl(var(--background-accent-hue), var(--interactive-normal-s), calc(var(--interactive-active-l) * calc(1 + var(--text-brightness-src))));
+    --interactive-muted: hsla(var(--background-accent-hue), var(--interactive-muted-s), calc(var(--interactive-muted-l) * calc(1 + var(--text-brightness-src))), var(--interactive-muted-a));
+
+    --background-modifier-hover: hsla(var(--background-accent-hue), var(--background-modifier-hover-s), calc(var(--background-modifier-hover-l) * calc(1 - var(--text-brightness-src))), var(--background-modifier-hover-a));
+    --background-modifier-active: hsla(var(--background-accent-hue), var(--background-modifier-active-s), calc(var(--background-modifier-active-l) * calc(1 - var(--text-brightness-src))), var(--background-modifier-active-a));
+    --background-modifier-selected: hsla(var(--background-accent-hue), var(--background-modifier-selected-s), calc(var(--background-modifier-selected-l) * calc(1 - var(--text-brightness-src))), var(--background-modifier-selected-a));
+    --background-modifier-accent: hsla(var(--background-accent-hue), var(--background-modifier-accent-s), calc(var(--background-modifier-accent-l) * calc(1 - var(--text-brightness-src))), var(--background-modifier-accent-a));
+}

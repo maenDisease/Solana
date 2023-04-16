@@ -1,0 +1,42 @@
+.ChannelDms-channelmembers-wrap .channel-1Shao0 {
+    max-width: unset;
+}
+
+.ChannelDms-channelmembers-wrap {
+    width: var(--members-width);
+}
+
+.ChannelDms-channelmembers-wrap .ChannelDms-channelmembers-header {
+    background: var(--background-primary-a) !important;
+    margin: 10px 0;
+    padding: 0 !important;
+    display: flex;
+    align-self: center;
+    border-bottom: var(--background-primary-border-a) !important;
+}
+
+.ChannelDms-channelmembers-wrap .searchBar-3TnChZ .searchBarComponent-3N7dCG {
+    background-color: transparent;
+}
+
+.ChannelDms-channelmembers-wrap .topPill-2vcLsa {
+    border: var(--background-primary-border-a);
+    border-radius: 8px;
+    width: fit-content;
+}
+
+.ChannelDms-channelpopout-popout {
+    color: var(--header-primary) !important;
+    background: var(--background-secondary) !important;
+    border: var(--background-primary-border);
+    -webkit-box-shadow: var(--elevation-stroke), var(--elevation-high) !important;
+    box-shadow: var(--elevation-stroke), var(--elevation-high) !important;
+}
+
+.ChannelDms-channelpopout-popout .ChannelDms-channelpopout-header {
+    background: var(--background-accent) !important;
+}
+
+.ChannelDms-channelpopout-headerName {
+    font-family: var(--font-display);
+}

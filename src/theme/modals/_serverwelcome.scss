@@ -1,0 +1,24 @@
+#app-mount .contentWrapper-3oy4Xo {
+    background: var(--background-secondary);
+}
+
+.optionContainer-yOpaLq {
+    border: var(--background-primary-border);
+    background: var(--background-primary);
+}
+
+.main-jX9p1r {
+    background: var(--background-secondary);
+}
+
+.optionContainer-yOpaLq:hover {
+    background: var(--background-tertiary);
+}
+
+.spamBanner-1auiob {
+    background: var(--background-floating);
+    border-radius: 8px;
+    border: var(--background-floating-border);
+    -webkit-box-shadow: var(--elevation-stroke), var(--elevation-high);
+    box-shadow: var(--elevation-stroke), var(--elevation-high);
+}

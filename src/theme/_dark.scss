@@ -1,0 +1,57 @@
+.theme-dark {
+    --background-tertiary-border-variable-divider-a: 1px solid hsla(var(--background-accent-hue), 4%, calc(min(1, var(--window-margin)) * var(--background-tertiary-border-l)), var(--window-opacity));
+    --background-primary-l: calc(19% * (1 + var(--window-background-lightness)));
+    --background-secondary-l: calc(16% * (1 + var(--window-background-lightness)));
+    --background-tertiary-l: calc(14% * (1 + var(--window-background-lightness)));
+    --background-accent-l: calc(22% * (1 + var(--window-background-lightness)));
+    --background-floating-l: calc(15% * (1 + var(--floating-background-lightness)));
+
+    --background-primary-border-l: calc(26% * (1 + var(--window-background-lightness)));
+    --background-secondary-border-l: calc(22% * (1 + var(--window-background-lightness)));
+    --background-tertiary-border-l: calc(32% * (1 + var(--window-background-lightness)));
+    --background-floating-border-l: calc(37% * (1 + var(--floating-background-lightness)));
+
+    --header-primary-s: 2%;
+    --header-primary-l: 92%;
+    --header-secondary-s: 4%;
+    --header-secondary-l: 74%;
+    --text-normal-s: 3%;
+    --text-normal-l: 87%;
+    --text-muted-s: 1%;
+    --text-muted-l: 41%;
+    --channels-default-s: 3%;
+    --channels-default-l: 60%;
+
+    --interactive-normal-s: 3%;
+    --interactive-normal-l: 72%;
+    --interactive-muted-s: 1%;
+    --interactive-muted-l: 70%;
+    --interactive-muted-a: 0.3;
+    --interactive-hover-l: 87%;
+    --interactive-active-l: 95%;
+
+    --background-modifier-hover-s: 13%;
+    --background-modifier-hover-l: 48%;
+    --background-modifier-hover-a: 0.16;
+    --background-modifier-active-s: 13%;
+    --background-modifier-active-l: 48%;
+    --background-modifier-active-a: 0.2;
+    --background-modifier-selected-s: 5%;
+    --background-modifier-selected-l: 48%;
+    --background-modifier-selected-a: 0.3;
+    --background-modifier-accent-s: 10%;
+    --background-modifier-accent-l: 48%;
+    --background-modifier-accent-a: 0.34;
+
+    --scroller-color: hsl(0, 0%, 42%);
+    --button-selected-background: hsl(var(--background-accent-hue), 2%, 38%);
+    --text-link: hsl(calc(var(--text-link-hue) - 15), calc(var(--saturation-factor, 1)*100%), 47.8%);
+
+    --elevation-low:
+        0 1px 0 hsl(var(--background-accent-hue), 6%, 0%, 0.8),
+        0 2px 0 hsl(var(--background-accent-hue), 6%, 0%, 0.1);
+    --elevation-low-a:
+        0 1px 0 hsl(var(--background-accent-hue), 6%, 0%, calc(0.8* var(--window-opacity))),
+        0 2px 0 hsl(var(--background-accent-hue), 6%, 0%, calc(0.1* var(--window-opacity)));
+    --elevation-stroke: 0 0 0 1px hsla(var(--background-accent-hue), 6%, 2%, 0.7);
+}

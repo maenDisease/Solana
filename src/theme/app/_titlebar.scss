@@ -1,0 +1,38 @@
+.wordmarkWindows-2dq6rw {
+    padding-top: 0;
+}
+
+.topic-11NuQZ {
+    flex-grow: 0;
+}
+
+#app-mount .withBackgroundOverride-gzmZco.typeWindows-2-g3UY {
+    padding-top: 11px;
+    background: none;
+}
+
+.guilds-2JjMmN:not(.content-Pph8t6),
+.container-ZMc96U,
+.children-3xh0VB .iconWrapper-2awDjA>svg {
+    -webkit-app-region: drag;
+}
+
+.listItem-3SmSlK>*,
+.toolbar-3_r2xA>*,
+.platform-win .topicClickTarget-2GMi99,
+.cursorPointer-3JF56F.title-17SveM,
+.sidebarRegion-1VBisG,
+.closeButton-PCZcma,
+[class*="menu-"][role="menu"] {
+    -webkit-app-region: no-drag;
+}
+
+.platform-win .typeWindows-2-g3UY::before {
+    content: '';
+    top: 0;
+    left: 0;
+    position: fixed;
+    height: calc(var(--window-margin) * 1px);
+    width: 100%;
+    -webkit-app-region: drag;
+}

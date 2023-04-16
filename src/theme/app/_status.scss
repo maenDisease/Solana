@@ -1,0 +1,28 @@
+[mask="url(#svg-mask-status-online)"],
+[mask="url(#svg-mask-status-online)"] .status-2DiCMd,
+[mask="url(#svg-mask-status-online-mobile)"],
+[mask][fill="#23a55a"] {
+    fill: var(--status-positive);
+    background-color: var(--status-positive) !important;
+}
+
+[mask="url(#svg-mask-status-idle)"],
+[mask="url(#svg-mask-status-idle)"] .status-2DiCMd,
+[mask][fill="#f0b232"] {
+    fill: var(--status-warning);
+    background-color: var(--status-warning) !important;
+}
+
+[mask="url(#svg-mask-status-dnd)"],
+[mask="url(#svg-mask-status-dnd)"] .status-2DiCMd,
+[mask][fill="#f23f43"] {
+    fill: var(--status-danger);
+    background-color: var(--status-danger) !important;
+}
+
+[mask="url(#svg-mask-status-offline)"],
+[mask="url(#svg-mask-status-offline)"] .status-2DiCMd,
+[mask][fill="#82858f"] {
+    fill: var(--status-grey);
+    background-color: var(--status-grey) !important;
+}

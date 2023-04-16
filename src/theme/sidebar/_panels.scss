@@ -1,0 +1,216 @@
+/* Visible VC Text Button */
+@media (hover: hover) {
+    .iconVisibility-vptxma:hover .iconItem-1EjiK0 {
+        display: flex;
+    }
+}
+
+#app-mount .openChatIconItem-2kj5qO {
+    order: 1;
+    justify-content: center;
+    border-radius: 4px;
+    width: 42px;
+    padding-right: 0;
+}
+
+.openChatIconItem-2kj5qO:hover {
+    background-color: var(--background-modifier-selected);
+}
+
+.openChatIconItem-2kj5qO .actionIcon-2sw4Sl {
+    color: var(--channels-default);
+}
+
+
+
+.panels-3wFtMD {
+    background-color: transparent;
+}
+
+.container-1zzFcN {
+    border-bottom: none;
+    background: none;
+}
+
+.theme-dark .wrapper-3Hk9OB,
+.theme-dark .panel-2ZFCRb {
+    --button-selected-background: #fff;
+}
+
+.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx,
+.button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx {
+    background-color: var(--button-selected-background);
+    color: var(--interactive-active);
+    font-weight: 600;
+}
+
+.wrapper-3Hk9OB .button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx,
+.button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx {
+    --interactive-active: #060607;
+}
+
+.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx .buttonIcon-2Zsrs2,
+.button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx .buttonIcon-2Zsrs2 {
+    color: var(--status-positive);
+}
+
+.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx:hover,
+.button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx:hover {
+    background-color: var(--button-selected-background);
+}
+
+.button-1EGGcP.buttonColor-3bP3fX {
+    background-color: var(--background-modifier-accent);
+    color: var(--text-normal);
+    border: var(--background-modifier-accent-border);
+}
+
+.panel-2ZFCRb.activityPanel-9icbyU {
+    border-bottom: none;
+    background-color: var(--background-floating-40a);
+    border-radius: 12px 12px 0 0;
+    border-top: var(--background-tertiary-border);
+    border-left: var(--background-tertiary-border);
+    border-right: var(--background-tertiary-border);
+}
+
+.wrapper-3Hk9OB:not(:empty) {
+    background-color: var(--background-floating-40a);
+    border-top: var(--background-tertiary-border);
+    border-radius: 12px;
+    border: var(--background-tertiary-border);
+}
+
+.wrapper-3Hk9OB:empty+.container-YkUktl {
+    border-top: var(--background-modifier-accent-border);
+}
+
+.panel-2ZFCRb.activityPanel-9icbyU+.wrapper-3Hk9OB:not(:empty) {
+    border-radius: 0 0 12px 12px;
+    border-top: none;
+}
+
+.panel-2ZFCRb.activityPanel-9icbyU+.wrapper-3Hk9OB:empty+.container-6sXIoE.withTimeline-824fT_ {
+    border-bottom: none;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.panel-2ZFCRb.activityPanel-9icbyU+.wrapper-3Hk9OB:empty+.container-6sXIoE.withTimeline-824fT_+.container-YkUktl {
+    border-top: var(--background-tertiary-border);
+}
+
+.panels-3wFtMD .button-12Fmur:hover {
+    border-radius: 5px;
+    border: var(--background-tertiary-border);
+}
+
+.card-m7VgZ8 {
+    border-radius: 6px;
+    color: var(--header-primary);
+    border: var(--background-secondary-border);
+    background-color: var(--background-pri);
+}
+
+.group-1_ptLP.flex-3BkGQD {
+    border: var(--background-secondary-border);
+    border-radius: 8px;
+    background-color: var(--background-tertiary);
+}
+
+.item-2OyinQ.selectorButtonSelected-3cQUnj {
+    box-shadow: var(--btn-outer-shadow);
+}
+
+.selectorButton-3fWZ0_:not(.selectorButtonSelected-3cQUnj, .selectorButtonPremiumRequired-IZXhgV):hover {
+    background-color: var(--background-modifier-hover);
+}
+
+.selectorButton-3fWZ0_:not(.selectorButtonSelected-3cQUnj, .selectorButtonPremiumRequired-IZXhgV):active {
+    background-color: var(--background-modifier-active);
+}
+
+.selectorButton-3fWZ0_:not(.selectorButtonSelected-3cQUnj, .selectorButtonPremiumRequired-IZXhgV) {
+    background: transparent;
+}
+
+.selectorButton-3fWZ0_.selectorButtonPremiumRequired-IZXhgV {
+    background: transparent;
+}
+
+.qualitySettingsContainer-2LjkfM {
+    border-radius: 8px;
+    border: var(--background-secondary-border);
+}
+
+#app-mount .item-2OyinQ {
+    border-radius: 6px;
+    margin: 1px;
+    border: 1px solid transparent;
+}
+
+.root-1CAIjD.fullscreenOnMobile-2971EC .modalSize-3WSXDU>.segmentContainer-358IfE {
+    margin-top: 8px;
+}
+
+.root-1CAIjD.fullscreenOnMobile-2971EC .container-2zEtSe.segmentControl-3edJKN {
+    border: var(--background-secondary-border);
+    background-color: var(--background-tertiary);
+    border-radius: 8px;
+    width: fit-content;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.root-1CAIjD.fullscreenOnMobile-2971EC .item-LN5zvA.segmentControlOption-3MnJdT {
+    border-radius: 6px;
+    margin: 1px;
+    padding: 2px 8px;
+    border: 1px solid transparent;
+}
+
+.root-1CAIjD.fullscreenOnMobile-2971EC .item-LN5zvA.segmentControlOption-3MnJdT:not(.selected-2xa993):hover {
+    color: var(--interactive-hover);
+    background-color: var(--background-modifier-hover)
+}
+
+.root-1CAIjD.fullscreenOnMobile-2971EC .item-LN5zvA.segmentControlOption-3MnJdT:not(.selected-2xa993):active {
+    color: var(--interactive-active);
+    background-color: var(--background-modifier-active)
+}
+
+.root-1CAIjD.fullscreenOnMobile-2971EC .item-LN5zvA.segmentControlOption-3MnJdT.selected-2xa993 {
+    background-color: var(--button-selected-background);
+    border-top-color: rgba(255, 255, 255, 0.2);
+    box-shadow: var(--btn-outer-shadow);
+}
+
+.root-1CAIjD.fullscreenOnMobile-2971EC .upsellBanner-1tVKtW {
+    cursor: pointer;
+    margin-top: 8px;
+    padding: 0;
+    border-radius: 50px;
+    width: 24px;
+    height: 24px;
+    margin-left: auto;
+    box-shadow: var(--btn-outer-shadow);
+}
+
+.root-1CAIjD.fullscreenOnMobile-2971EC .upsellBanner-1tVKtW svg.white-2rWWmN {
+    height: 16px;
+    width: 22px;
+}
+
+.root-1CAIjD.fullscreenOnMobile-2971EC .upsellBanner-1tVKtW>.iconTextContainer-Z3gitj .upsellText-3mrdFJ {
+    position: absolute;
+    color: var(--text-normal);
+    transform: translateX(-216px);
+    width: fit-content;
+}
+
+.root-1CAIjD.fullscreenOnMobile-2971EC .upsellBanner-1tVKtW>.whiteTextLink-2_hsDw {
+    position: absolute;
+    color: var(--text-normal);
+    transform: translateX(-64px);
+    width: fit-content;
+}
