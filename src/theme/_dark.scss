@@ -11,6 +11,8 @@
     --background-tertiary-border-l: calc(32% * (1 + var(--window-background-lightness)));
     --background-floating-border-l: calc(37% * (1 + var(--floating-background-lightness)));
 
+    --background-floating-80a: hsla(var(--background-accent-hue), 4%, calc(15.2% * (1 + var(--floating-background-lightness))), calc((var(--background-floating-opacity) + .8) - var(--enable-floating-transparency)));
+
     --header-primary-s: 2%;
     --header-primary-l: 92%;
     --header-secondary-s: 4%;
