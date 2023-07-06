@@ -1048,7 +1048,7 @@ html.theme-dark #app-mount .tooltipPointer-sMBQqe {
   max-width: unset;
 }
 
-.name-28HaxV {
+#app-mount .name-28HaxV {
   font-family: var(--font-regular);
   font-size: 14px;
   font-weight: 400;
@@ -1089,7 +1089,7 @@ html.theme-dark #app-mount .tooltipPointer-sMBQqe {
   border-top: var(--background-modifier-accent-border);
 }
 
-.content-1gYQeQ {
+.link-1_kTxV {
   border-radius: 6px;
 }
 
@@ -1106,7 +1106,7 @@ html.theme-dark #app-mount .tooltipPointer-sMBQqe {
   color: var(--interactive-active);
 }
 
-.content-1gYQeQ .icon-2W8DHg {
+.link-1_kTxV .icon-2W8DHg {
   width: 16px;
   height: 16px;
 }
@@ -1137,8 +1137,8 @@ html.theme-dark #app-mount .tooltipPointer-sMBQqe {
   justify-content: center;
 }
 
-html.app-focused .modeSelected-3DmyhH .content-1gYQeQ,
-html.app-focused .modeSelected-3DmyhH:hover .content-1gYQeQ {
+html.app-focused .modeSelected-3DmyhH .link-1_kTxV,
+html.app-focused .modeSelected-3DmyhH:hover .link-1_kTxV {
   background-color: var(--brand-experiment);
 }
 
@@ -1152,13 +1152,13 @@ html.app-focused .modeSelected-3DmyhH:hover .icon-2W8DHg {
   color: #fff;
 }
 
-html.app-focused .modeSelected-3DmyhH .content-1gYQeQ .actionIcon-2sw4Sl,
-html.app-focused .modeSelected-3DmyhH:hover .content-1gYQeQ .actionIcon-2sw4Sl {
+html.app-focused .modeSelected-3DmyhH .link-1_kTxV .actionIcon-2sw4Sl,
+html.app-focused .modeSelected-3DmyhH:hover .link-1_kTxV .actionIcon-2sw4Sl {
   color: var(--text-normal);
 }
 
-html.app-focused .modeSelected-3DmyhH .content-1gYQeQ .subtitle-3PyFgf,
-html.app-focused .modeSelected-3DmyhH:hover .content-1gYQeQ .subtitle-3PyFgf {
+html.app-focused .modeSelected-3DmyhH .link-1_kTxV .subtitle-3PyFgf,
+html.app-focused .modeSelected-3DmyhH:hover .link-1_kTxV .subtitle-3PyFgf {
   color: #fff !important;
 }
 
