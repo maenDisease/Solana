@@ -57,9 +57,12 @@
     border-radius: 8px;
 }
 
-.replyBar-1oi75v,
-.threadSuggestionBar-3ExSyc {
+.replyBar-1oi75v {
     background: var(--background-floating);
+}
+
+.threadSuggestionBar-3ExSyc {
+    display: none;
 }
 
 .base-2v-uc0,
