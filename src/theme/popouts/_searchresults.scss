@@ -1,4 +1,4 @@
-#app-mount .elevationBorderHigh-3drnJX {
+#app-mount .elevationBorderHigh_f9a758 {
     border: var(--background-floating-border);
     background-color: var(--background-floating-80a);
     backdrop-filter: blur(var(--background-floating-blur-calc));
@@ -6,116 +6,116 @@
     box-shadow: var(--elevation-stroke), var(--elevation-high);
 }
 
-.container-2McqkF {
+.container_d6dad3 {
     border-radius: 8px;
 }
 
-.option-ayUoaq:after {
+.option_b5597b:after {
     display: none;
 }
 
-.option-ayUoaq:hover {
+.option_b5597b:hover {
     background-color: var(--brand-experiment);
     --search-popout-option-non-text-color: #fff;
 }
 
-.option-ayUoaq[aria-selected=true] {
+.option_b5597b[aria-selected=true] {
     background-color: var(--brand-experiment);
     --search-popout-option-non-text-color: #fff;
 }
 
-.option-ayUoaq {
+.option_b5597b {
     border-radius: 6px;
 }
 
-.option-ayUoaq:hover .plusIcon-1RVszG,
-.option-ayUoaq[aria-selected=true] .plusIcon-1RVszG {
+.option_b5597b:hover .plusIcon__36244,
+.option_b5597b[aria-selected=true] .plusIcon__36244 {
     color: #fff;
     display: block;
 }
 
-.option-ayUoaq.user-1dKxvu:hover .displayedNick-1atSpT,
-.option-ayUoaq.user-1dKxvu[aria-selected=true] .displayedNick-1atSpT {
+.option_b5597b.user__97b4c:hover .displayedNick_df9a16,
+.option_b5597b.user__97b4c[aria-selected=true] .displayedNick_df9a16 {
     color: #fff;
 }
 
-.option-ayUoaq.user-1dKxvu:hover .displayUsername-UTerwm,
-.option-ayUoaq.user-1dKxvu[aria-selected=true] .displayUsername-UTerwm {
+.option_b5597b.user__97b4c:hover .displayUsername_aea59a,
+.option_b5597b.user__97b4c[aria-selected=true] .displayUsername_aea59a {
     color: #dcddde;
 }
 
-#app-mount .option-ayUoaq:hover :where(.answer-14OVbQ, .filter-2QaH9y, strong),
-#app-mount .option-ayUoaq[aria-selected=true] :where(.answer-14OVbQ, .filter-2QaH9y, strong) {
+#app-mount .option_b5597b:hover :where(.answer__9ff92, .filter_bd5fe7, strong),
+#app-mount .option_b5597b[aria-selected=true] :where(.answer__9ff92, .filter_bd5fe7, strong) {
     color: #fff;
 }
 
 
-#app-mount .option-ayUoaq:hover .searchResultChannelCategory-19ujDo,
-#app-mount .option-ayUoaq:hover .searchResultChannelIcon-C-3P9x,
-#app-mount .option-ayUoaq[aria-selected=true] .searchResultChannelCategory-19ujDo,
-#app-mount .option-ayUoaq[aria-selected=true] .searchResultChannelIcon-C-3P9x {
+#app-mount .option_b5597b:hover .searchResultChannelCategory__7ebb5,
+#app-mount .option_b5597b:hover .searchResultChannelIcon__95142,
+#app-mount .option_b5597b[aria-selected=true] .searchResultChannelCategory__7ebb5,
+#app-mount .option_b5597b[aria-selected=true] .searchResultChannelIcon__95142 {
     color: #fff;
 }
 
-#app-mount .queryContainer-ZunrLZ.focused-2FU0YH {
+#app-mount .queryContainer_c359fe.focused_f9cf2c {
     background-color: transparent;
 }
 
-.resultsGroup-cfY57t .header-1BR0Ro {
+.resultsGroup_ea9b64 .header_b24bd1 {
     font-weight: 600;
     text-transform: capitalize;
 }
 
-.resultsGroup-cfY57t .searchClearHistory-3nIKUO:hover {
+.resultsGroup_ea9b64 .searchClearHistory_cd1df2:hover {
     color: var(--status-danger);
 }
 
-#app-mount .calendarPicker-sDhzdi .react-datepicker {
+#app-mount .calendarPicker__5c474 .react-datepicker {
     background-color: transparent;
 }
 
-.calendarPicker-sDhzdi .react-datepicker__month {
+.calendarPicker__5c474 .react-datepicker__month {
     border: var(--background-modifier-accent-border);
     border-radius: 6px;
 }
 
-#app-mount .calendarPicker-sDhzdi .react-datepicker__header {
+#app-mount .calendarPicker__5c474 .react-datepicker__header {
     background-color: transparent;
     border-color: transparent;
 }
 
-#app-mount .calendarPicker-sDhzdi .react-datepicker__navigation.react-datepicker__navigation--next,
-#app-mount .calendarPicker-sDhzdi .react-datepicker__navigation.react-datepicker__navigation--previous {
+#app-mount .calendarPicker__5c474 .react-datepicker__navigation.react-datepicker__navigation--next,
+#app-mount .calendarPicker__5c474 .react-datepicker__navigation.react-datepicker__navigation--previous {
     border: var(--background-modifier-accent-border);
 }
 
-#app-mount .calendarPicker-sDhzdi .react-datepicker__day--disabled,
-#app-mount .calendarPicker-sDhzdi .react-datepicker__day--outside-month,
-#app-mount .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled,
-#app-mount .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled:hover {
+#app-mount .calendarPicker__5c474 .react-datepicker__day--disabled,
+#app-mount .calendarPicker__5c474 .react-datepicker__day--outside-month,
+#app-mount .calendarPicker__5c474 .react-datepicker__day.react-datepicker__day--disabled,
+#app-mount .calendarPicker__5c474 .react-datepicker__day.react-datepicker__day--disabled:hover {
     background-color: transparent;
     color: var(--text-muted);
 }
 
-#app-mount .calendarPicker-sDhzdi .react-datepicker__current-month {
+#app-mount .calendarPicker__5c474 .react-datepicker__current-month {
     border-bottom: none;
     font-size: 14px;
 }
 
-#app-mount .calendarPicker-sDhzdi .react-datepicker__day {
+#app-mount .calendarPicker__5c474 .react-datepicker__day {
     border: none;
 }
 
-.calendarPicker-sDhzdi .react-datepicker__week:first-of-type>.react-datepicker__day:first-of-type,
-.calendarPicker-sDhzdi .react-datepicker__week:first-of-type>.react-datepicker__day:last-of-type,
-.calendarPicker-sDhzdi .react-datepicker__week:last-of-type>.react-datepicker__day:first-of-type,
-.calendarPicker-sDhzdi .react-datepicker__week:last-of-type>.react-datepicker__day:last-of-type {
+.calendarPicker__5c474 .react-datepicker__week:first-of-type>.react-datepicker__day:first-of-type,
+.calendarPicker__5c474 .react-datepicker__week:first-of-type>.react-datepicker__day:last-of-type,
+.calendarPicker__5c474 .react-datepicker__week:last-of-type>.react-datepicker__day:first-of-type,
+.calendarPicker__5c474 .react-datepicker__week:last-of-type>.react-datepicker__day:last-of-type {
     border-radius: 6px;
 }
 
-.calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--keyboard-selected,
-.calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--selected:hover,
-.calendarPicker-sDhzdi .react-datepicker__day:hover {
+.calendarPicker__5c474 .react-datepicker__day.react-datepicker__day--keyboard-selected,
+.calendarPicker__5c474 .react-datepicker__day.react-datepicker__day--selected:hover,
+.calendarPicker__5c474 .react-datepicker__day:hover {
     border-radius: 6px;
 }
 
@@ -123,14 +123,14 @@
     display: none;
 }
 
-.searchResultChannelCategory-19ujDo,
-.searchResultChannelIcon-C-3P9x {
+.searchResultChannelCategory__7ebb5,
+.searchResultChannelIcon__95142 {
     color: var(--text-muted);
     opacity: .6;
 }
 
-.option-ayUoaq .answer-14OVbQ,
-.option-ayUoaq .filter-2QaH9y,
-.option-ayUoaq strong {
+.option_b5597b .answer__9ff92,
+.option_b5597b .filter_bd5fe7,
+.option_b5597b strong {
     color: var(--text-muted);
 }

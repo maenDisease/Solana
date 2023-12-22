@@ -1,4 +1,4 @@
-#app-mount .streamPreview-I7itZ6 {
+#app-mount .streamPreview__1846c {
     border-radius: 8px;
     background-color: var(--background-floating);
     backdrop-filter: blur(var(--background-floating-blur-calc));
@@ -7,7 +7,7 @@
 }
 
 /* 14.13. Streaminfo */
-.container-8Futzw {
+.container__56cd1 {
     border-radius: 8px;
     background-color: var(--background-floating);
     backdrop-filter: blur(var(--background-floating-blur-calc));
@@ -15,7 +15,7 @@
     animation: floatingtranstion 0.5s 0.2s forwards;
 }
 
-.popout-TdhJ6Z {
+.popout__24e32 {
     border-radius: 8px;
     background-color: var(--background-floating);
     backdrop-filter: blur(var(--background-floating-blur-calc));
@@ -23,7 +23,7 @@
     animation: floatingtranstion 0.5s 0.2s forwards;
 }
 
-.didRender-2SiRlm .popout-TdhJ6Z {
+.didRender-2SiRlm .popout__24e32 {
     background-color: var(--background-floating);
     animation: floatingtranstion 0.5s 0.2s forwards;
 }

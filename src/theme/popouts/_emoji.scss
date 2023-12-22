@@ -1,20 +1,20 @@
-.popoutContainer-2wbmiM {
+.popoutContainer__7b9a3 {
     background-color: var(--background-floating-80a);
     backdrop-filter: blur(var(--background-floating-blur-calc));
     border: var(--background-floating-border);
 }
 
-.didRender-2SiRlm .popoutContainer-2wbmiM {
+.didRender-2SiRlm .popoutContainer__7b9a3 {
     background-color: var(--background-floating);
     animation: floatingtranstion 0.5s 0.2s forwards;
 }
 
-.popoutContainer-2wbmiM .guildSection-2Zyzy8 {
+.popoutContainer__7b9a3 .guildSection_ebda04 {
     background-color: transparent;
 }
 
-.popoutContainer-2wbmiM .assetWrapper-2hzITV,
-.popoutContainer-2wbmiM .primaryEmoji-2Og_xG,
-.popoutContainer-2wbmiM .guildSection-2Zyzy8 svg {
+.popoutContainer__7b9a3 .assetWrapper_f2e406,
+.popoutContainer__7b9a3 .primaryEmoji__1194c,
+.popoutContainer__7b9a3 .guildSection_ebda04 svg {
     margin-right: 8px;
 }

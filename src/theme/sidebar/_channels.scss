@@ -1,8 +1,8 @@
-.sidebar-1tnWFu .channel-1Shao0 {
+.sidebar_ded4b5 .channel_c21703 {
     max-width: unset;
 }
 
-#app-mount .name-28HaxV {
+#app-mount .name__8d1ec {
     font-family: var(--font-regular);
     font-size: 14px;
     font-weight: 400;
@@ -12,26 +12,26 @@
     color: var(--text-muted);
 }
 
-.wrapper-1S43wv.clickable-2AoIYN .arrow-2HswgU.icon-3zI3d2 {
+.wrapper__9c483.clickable_dbdd2a .arrow_cb03b8.icon_ef4486 {
     display: none;
 }
 
-.wrapper-1S43wv.clickable-2AoIYN:hover .arrow-2HswgU.icon-3zI3d2 {
+.wrapper__9c483.clickable_dbdd2a:hover .arrow_cb03b8.icon_ef4486 {
     display: block;
 }
 
-.modeConnected-NrO4cP .name-28HaxV,
-.modeConnected-NrO4cP:hover .name-28HaxV,
-.modeSelected-3DmyhH .name-28HaxV,
-.modeSelected-3DmyhH:hover .name-28HaxV,
-.modeUnread-3Cxepe .name-28HaxV,
-.modeUnread-3Cxepe:hover .name-28HaxV,
-.notInteractive-2tFrlE.modeConnected-NrO4cP .name-28HaxV,
-.notInteractive-2tFrlE.modeSelected-3DmyhH .name-28HaxV {
+.modeConnected__1c02e .name__8d1ec,
+.modeConnected__1c02e:hover .name__8d1ec,
+.modeSelected__487d6 .name__8d1ec,
+.modeSelected__487d6:hover .name__8d1ec,
+.modeUnread_f74c03 .name__8d1ec,
+.modeUnread_f74c03:hover .name__8d1ec,
+.notInteractive_a7d9fb.modeConnected__1c02e .name__8d1ec,
+.notInteractive_a7d9fb.modeSelected__487d6 .name__8d1ec {
     color: var(--text-normal);
 }
 
-.unreadRelevant-2f-VSK {
+.unreadRelevant__44f9e {
     background-color: var(--text-normal);
 }
 
@@ -39,28 +39,28 @@
     --font-weight-semibold-1x-light-theme: 500;
 }
 
-#app-mount .divider-3qUeLQ {
+#app-mount .divider__40683 {
     border-top: var(--background-modifier-accent-border);
 }
 
-.link-1_kTxV {
+.link__95dc0 {
     border-radius: 6px;
 }
 
-.wrapper-NhbLHG.modeConnected-NrO4cP .icon-2W8DHg {
+.wrapper__7bcde.modeConnected__1c02e .icon_eff5d4 {
     color: var(--status-positive);
 }
 
-.wrapper-NhbLHG.modeLocked-3sToxd .icon-2W8DHg {
+.wrapper__7bcde.modeLocked_fcc71a .icon_eff5d4 {
     color: var(--status-grey);
 }
 
-.modeUnread-3Cxepe .icon-2W8DHg,
-.modeUnread-3Cxepe:hover .icon-2W8DHg {
+.modeUnread_f74c03 .icon_eff5d4,
+.modeUnread_f74c03:hover .icon_eff5d4 {
     color: var(--interactive-active);
 }
 
-.link-1_kTxV .icon-2W8DHg {
+.link__95dc0 .icon_eff5d4 {
     width: 16px;
     height: 16px;
 }
@@ -70,48 +70,48 @@
     text-transform: capitalize;
 }
 
-.unread-36eUEm {
+.unread__48cf4 {
     height: 6px;
     width: 6px;
     border-radius: 50%;
     margin-top: -3px;
 }
 
-.bar-wDIGjg:not(.mentionsBar-DpLHCy) {
+.bar__004d9:not(.mentionsBar__4b47a) {
     background-color: var(--background-floating);
     border: var(--background-floating-border);
 }
 
-.bar-wDIGjg .barText-1eIsLx {
+.bar__004d9 .barText__1a44f {
     text-transform: capitalize;
 }
 
-.unread-XRkyaQ.container-1qIct8 {
+.unread__11823.container__88123 {
     display: flex;
     justify-content: center;
 }
 
-html.app-focused .modeSelected-3DmyhH .link-1_kTxV,
-html.app-focused .modeSelected-3DmyhH:hover .link-1_kTxV {
+html.app-focused .modeSelected__487d6 .link__95dc0,
+html.app-focused .modeSelected__487d6:hover .link__95dc0 {
     background-color: var(--brand-experiment);
 }
 
-html.app-focused .modeSelected-3DmyhH .name-28HaxV,
-html.app-focused .modeSelected-3DmyhH:hover .name-28HaxV {
+html.app-focused .modeSelected__487d6 .name__8d1ec,
+html.app-focused .modeSelected__487d6:hover .name__8d1ec {
     color: #fff;
 }
 
-html.app-focused .modeSelected-3DmyhH .icon-2W8DHg,
-html.app-focused .modeSelected-3DmyhH:hover .icon-2W8DHg {
+html.app-focused .modeSelected__487d6 .icon_eff5d4,
+html.app-focused .modeSelected__487d6:hover .icon_eff5d4 {
     color: #fff;
 }
 
-html.app-focused .modeSelected-3DmyhH .link-1_kTxV .actionIcon-2sw4Sl,
-html.app-focused .modeSelected-3DmyhH:hover .link-1_kTxV .actionIcon-2sw4Sl {
+html.app-focused .modeSelected__487d6 .link__95dc0 .actionIcon_d679b5,
+html.app-focused .modeSelected__487d6:hover .link__95dc0 .actionIcon_d679b5 {
     color: var(--text-normal);
 }
 
-html.app-focused .modeSelected-3DmyhH .link-1_kTxV .subtitle-3PyFgf,
-html.app-focused .modeSelected-3DmyhH:hover .link-1_kTxV .subtitle-3PyFgf {
+html.app-focused .modeSelected__487d6 .link__95dc0 .subtitle_bba2b7,
+html.app-focused .modeSelected__487d6:hover .link__95dc0 .subtitle_bba2b7 {
     color: #fff !important;
 }

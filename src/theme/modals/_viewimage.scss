@@ -1,5 +1,5 @@
 /* Main container */
-.wrapper-rWtXPd {
+.wrapper__8e1d7 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,8 +42,8 @@
 }
 
 /* Bottom Controls */
-.wrapper-rWtXPd>.downloadLink-3cavAH,
-.operations-3V47CY {
+.wrapper__8e1d7>.downloadLink_e5ebe9,
+.operations__07224 {
     position: relative;
     display: flex;
     border-top: var(--background-secondary-border);
@@ -51,17 +51,17 @@
     justify-content: center;
 }
 
-.wrapper-rWtXPd .downloadLink-3cavAH {
+.wrapper__8e1d7 .downloadLink_e5ebe9 {
     top: unset;
     color: var(--text-normal) !important;
 }
 
 /* Image */
-.wrapper-rWtXPd .imageWrapper-oMkQl4 {
+.wrapper__8e1d7 .imageWrapper_fd6587 {
     background: url('data:image/svg+xml;utf8,<svg preserveAspectRatio="none"  viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg"><rect x="0" y="0" width="5" height="5" fill="lightgrey" /><rect x="5" y="5" width="5" height="5" fill="lightgrey" /><rect x="5" y="0" width="5" height="5" fill="white" /><rect x="0" y="5" width="5" height="5" fill="white" /></svg>') 0 0/25% 25%;
     margin: 16px 16px 20px 16px;
 }
 
-.modal-3Crloo :not(.sibling-6vI7Pu)>.imageWrapper-oMkQl4 {
+.modal_d2e7a7 :not(.sibling-6vI7Pu)>.imageWrapper_fd6587 {
     min-width: unset;
 }
