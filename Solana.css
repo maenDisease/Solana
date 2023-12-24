@@ -430,8 +430,10 @@ body,
 .sidebarRegionScroller__1fa7e,
 .standardSidebarView__1129a,
 .contentRegionScroller__86c79,
+.app_de4237,
 .wrapper_b8c724,
-.wrapper__5c5cd {
+.wrapper__5c5cd,
+.wrapper__3d460 {
   background: transparent;
 }
 
@@ -935,7 +937,7 @@ html.theme-dark #app-mount .tooltipPointer_a79354 {
   border-radius: 6px;
   color: var(--header-primary);
   border: var(--background-secondary-border);
-  background-color: var(--background-pri);
+  background-color: var(--background-primary);
 }
 
 .group-1_ptLP.flex__909d4 {
