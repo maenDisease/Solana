@@ -149,6 +149,7 @@
 
 .bd-search-wrapper {
     border-radius: 6px;
+    margin-right: 65px;
     background-color: transparent;
     box-shadow: var(--background-secondary-box-shadow-border);
 }
@@ -162,9 +163,8 @@
     display: flex;
     align-items: center;
     top: 0;
-    width: 200%;
     padding: 16px;
-    margin-left: -41px;
+    margin: 0 -58px 0 -41px;
     z-index: 10;
     -webkit-app-region: drag;
     transform: translateY(-32px);
