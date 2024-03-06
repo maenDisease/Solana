@@ -108,8 +108,10 @@
 .pill_f055c3 {
     background-color: var(--background-secondary);
     border: var(--background-primary-border);
+    border-radius: 20px;
     box-shadow: var(--box-shadow-outer-3);
     height: 32px;
+    padding: 0 12px;
 }
 
 #app-mount .pill_f055c3.selected_dc72d1 {
