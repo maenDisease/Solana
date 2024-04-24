@@ -1,14 +1,14 @@
-.searchBar_e4ea2a {
+.searchBar__621ec {
     box-shadow: none;
 }
 
-.searchBar_e4ea2a .searchBarComponent__22760 {
+.searchBar__621ec .searchBarComponent__8f95f {
     background-color: var(--background-modifier-accent);
     box-shadow: var(--box-shadow-border);
 }
 
-.privateChannels__93473,
-#app-mount .scroller__4b984 {
+.privateChannels__9b518,
+#app-mount .scroller__89969 {
     background-color: transparent;
 }
 
@@ -16,19 +16,19 @@
     border-radius: 6px;
 }
 
-.name__02dbd {
+.name_f842e4 {
     font-family: var(--font-regular);
     font-size: 14px;
     font-weight: 400;
 }
 
-html.app-focused .selected_d94cf9,
-html.app-focused .interactiveSelected_ec846b.selected_d94cf9 {
+html.app-focused .selected__37292,
+html.app-focused .interactiveSelected__689f0.selected__37292 {
     color: #fff;
     background-color: var(--brand-experiment);
 }
 
-.selected_d94cf9,
-.interactiveSelected_ec846b.selected_d94cf9 {
+.selected__37292,
+.interactiveSelected__689f0.selected__37292 {
     color: var(--text-normal);
 }
