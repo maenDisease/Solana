@@ -1,48 +1,48 @@
-.barBase__4e0ba {
+.barBase__8839d {
     left: unset;
 }
 
-.jumpToPresentBar__0ff7f,
-.newMessagesBar__8b6d7 {
+.jumpToPresentBar__69174,
+.newMessagesBar__8b272 {
     padding-top: 4px;
     padding-bottom: 4px;
 }
 
-.jumpToPresentBar__0ff7f .barButtonBase__8fa46 {
+.jumpToPresentBar__69174 .barButtonBase__5e4cf {
     color: var(--header-primary);
 }
 
-.scrollerSpacer__9cd32 {
+.scrollerSpacer__6b1b6 {
     height: 20px;
 }
 
 /* 6.2.1. Message */
-.wrapper_c727b6 {
+.wrapper__4e6b6 {
     border: var(--background-primary-border);
     border-radius: 8px;
 }
 
-.reaction_b90ab0 {
+.reaction_ef7e09 {
     border-radius: 6px;
     box-shadow: var(--box-shadow-outer-3);
 }
 
-.reaction_b90ab0:not(.reactionMe_bf6909) {
+.reaction_ef7e09:not(.reactionMe__9fc5c) {
     background-color: var(--background-primary);
     border: var(--background-primary-border);
 }
 
-.reaction_b90ab0:not(.reactionMe_bf6909):hover {
+.reaction_ef7e09:not(.reactionMe__9fc5c):hover {
     background-color: var(--background-secondary);
 }
 
-.reaction_b90ab0.reactionMe_bf6909 {
+.reaction_ef7e09.reactionMe__9fc5c {
     background: var(--button-brand-gradient);
     border: 1px solid transparent;
     border-top-color: var(--brand-experiment-460);
 }
 
-#app-mount .reaction_b90ab0.reactionMe_bf6909 .reactionCount__60448 {
+#app-mount .reaction_ef7e09.reactionMe__9fc5c .reactionCount_b780c8 {
     color: #fff;
 }
 
@@ -69,77 +69,77 @@ code {
     border: var(--background-primary-border);
 }
 
-.before_inlineCode__37e14,
-.after_inlineCode__2197d,
-.inlineCode_d702a4 {
+.before_inlineCode__48f7c,
+.after_inlineCode__59586,
+.inlineCode__0cacf {
     border-top: var(--background-primary-border);
     border-bottom: var(--background-primary-border);
     padding-top: 1px;
     padding-bottom: 1px;
 }
 
-.before_inlineCode__37e14 {
+.before_inlineCode__48f7c {
     border-left: var(--background-primary-border);
 }
 
-.after_inlineCode__2197d {
+.after_inlineCode__59586 {
     border-right: var(--background-primary-border);
 }
 
 /* Blocked messages */
-.scrollerInner__059a5>.groupStart__56db5:not(.backgroundFlash_e5b9ad)>.wrapper__09ecc {
+.scrollerInner__37fee>.groupStart__7b93c:not(.backgroundFlash__28f42)>.wrapper_a62503 {
     padding: 0 0 0 16px
 }
 
-.scrollerInner__059a5>.groupStart__56db5:not(.backgroundFlash_e5b9ad)>.wrapper__09ecc.compact__54ecc {
+.scrollerInner__37fee>.groupStart__7b93c:not(.backgroundFlash__28f42)>.wrapper_a62503.compact_eda3c8 {
     padding: 0 0 0 108px
 }
 
-.scrollerInner__059a5>.groupStart__56db5:not(.backgroundFlash_e5b9ad) {
+.scrollerInner__37fee>.groupStart__7b93c:not(.backgroundFlash__28f42) {
     margin: 0
 }
 
-.scrollerInner__059a5>.groupStart__56db5.expanded_be53d7:not(.backgroundFlash_e5b9ad) {
+.scrollerInner__37fee>.groupStart__7b93c.expanded_d275c4:not(.backgroundFlash__28f42) {
     background-color: var(--info-danger-background)
 }
 
-.scrollerInner__059a5>.groupStart__56db5:not(.backgroundFlash_e5b9ad) .messageListItem__6a4fb .groupStart__56db5,
-.scrollerInner__059a5>.groupStart__56db5:not(.backgroundFlash_e5b9ad, .expanded_be53d7)+.messageListItem__6a4fb .groupStart__56db5 {
+.scrollerInner__37fee>.groupStart__7b93c:not(.backgroundFlash__28f42) .messageListItem__050f9 .groupStart__7b93c,
+.scrollerInner__37fee>.groupStart__7b93c:not(.backgroundFlash__28f42, .expanded_d275c4)+.messageListItem__050f9 .groupStart__7b93c {
     margin-top: 0
 }
 
-.scrollerInner__059a5>.groupStart__56db5:not(.backgroundFlash_e5b9ad) .messageListItem__6a4fb {
+.scrollerInner__37fee>.groupStart__7b93c:not(.backgroundFlash__28f42) .messageListItem__050f9 {
     opacity: .5
 }
 
-.blockedSystemMessage_e58a4c .iconContainer_dfc268 {
+.blockedSystemMessage_d1b25e .iconContainer_d0200f {
     display: none
 }
 
-.blockedMessageText__57d64 {
+.blockedMessageText_e808c7 {
     position: relative;
     font-size: 12px;
     line-height: 16px;
     color: var(--interactive-muted)
 }
 
-.blockedMessageText__57d64:hover {
+.blockedMessageText_e808c7:hover {
     text-decoration: underline
 }
 
-.blockedMessageText__57d64:hover,
-.groupStart__56db5.expanded_be53d7 .blockedMessageText__57d64 {
+.blockedMessageText_e808c7:hover,
+.groupStart__7b93c.expanded_d275c4 .blockedMessageText_e808c7 {
     color: var(--info-danger-foreground)
 }
 
-.blockedAction__27053 {
+.blockedAction_bf310e {
     position: absolute;
     inset: 0;
     width: 100%;
     opacity: 0
 }
 
-.blockedMessageText__57d64:after {
+.blockedMessageText_e808c7:after {
     content: '';
     position: absolute;
     right: 0;
@@ -151,25 +151,25 @@ code {
 }
 
 /* 6.2.2. Embeds */
-.wrapper__3a7a0.embedWrapper_c143d9 {
+.wrapper_f09ac7.embedWrapper__47b23 {
     border: var(--background-primary-border);
     border-radius: 8px;
     overflow: hidden;
 }
 
-.attachment_f3cf2c {
+.attachment__06ca3 {
     border: var(--background-primary-border);
     border-radius: 8px;
 }
 
-.embedWrapper_c143d9.container__8cab3 .textContainer__709ff {
+.embedWrapper__47b23.container__10c80 .textContainer__65f57 {
     background-color: var(--background-secondary);
     border: var(--background-primary-border);
     border-radius: 8px 8px 0 0;
     box-shadow: var(--box-shadow-outer-2);
 }
 
-.embedWrapper_c143d9.container__8cab3 .footer__06f4b {
+.embedWrapper__47b23.container__10c80 .footer__90194 {
     background-color: var(--background-primary);
     border: var(--background-primary-border);
     border-top: 0;
@@ -177,7 +177,7 @@ code {
     box-shadow: var(--box-shadow-outer-2);
 }
 
-#app-mount .wrapperAudio__555ce {
+#app-mount .wrapperAudio__178e9 {
     background-color: var(--background-primary);
     box-shadow: var(--box-shadow-outer-2);
 }
@@ -189,38 +189,38 @@ code {
     box-shadow: var(--box-shadow-outer-2);
 }
 
-.audioControls__9fbe9 {
+.audioControls_da7066 {
     border-radius: 6px;
 }
 
-.embed_d3cbe3 {
+.embed_cc6dae {
     border-radius: 8px;
 }
 
-.embedFull__8dc21 {
+.embedFull__14919 {
     background-color: var(--background-primary);
     box-shadow: var(--box-shadow-outer-2);
     border: var(--background-primary-border);
 }
 
-.footer__06f4b {
+.footer__90194 {
     background-color: var(--background-primary);
 }
 
-.container__767d1 {
+.container__17159 {
     background-color: var(--background-primary);
     box-shadow: var(--box-shadow-outer-2);
     border: var(--background-primary-border);
     border-radius: 8px;
 }
 
-.embedCard__66fca {
+.embedCard__2a3c7 {
     background-color: var(--background-primary);
     border: var(--background-primary-border);
     box-shadow: var(--box-shadow-outer-2);
 }
 
-.videoControls__96149 {
+.videoControls__7bc92 {
     flex-wrap: wrap;
     width: 80%;
     height: 10%;
@@ -234,11 +234,11 @@ code {
     backdrop-filter: blur(calc(12px * var(--enable-blur)));
 }
 
-.wrapperControlsHidden__143af .videoControls__96149 {
+.wrapperControlsHidden_ce304d .videoControls__7bc92 {
     bottom: 0;
 }
 
-.videoControls__96149 .durationTimeWrapper_d1de6b {
+.videoControls__7bc92 .durationTimeWrapper__81fcd {
     position: absolute;
     display: flex;
     justify-content: space-between;
@@ -247,36 +247,36 @@ code {
     margin-top: 42px;
 }
 
-.videoControls__96149 .durationTimeSeparator__8b5d8 {
+.videoControls__7bc92 .durationTimeSeparator__04e51 {
     display: none;
 }
 
-.videoControls__96149>div:nth-child(1) {
+.videoControls__7bc92>div:nth-child(1) {
     margin: 0 auto;
 }
 
-.videoControls__96149 .horizontal__3deed {
+.videoControls__7bc92 .horizontal_c25137 {
     order: 1;
     padding: 0 1vh;
 }
 
-.videoControls__96149 .durationTimeWrapper_d1de6b+.horizontal__3deed {
+.videoControls__7bc92 .durationTimeWrapper__81fcd+.horizontal_c25137 {
     padding: 0 5vh;
 }
 
-.videoControls__96149 .flex__909d4 {
+.videoControls__7bc92 .flex__9487d {
     order: -2;
 }
 
-.videoControls__96149 #Loop {
+.videoControls__7bc92 #Loop {
     order: -1;
 }
 
-.metadata__2d766 {
+.metadata__7bef0 {
     pointer-events: none;
 }
 
-.metadataDownload__6b32d {
+.metadataDownload__9673d {
     pointer-events: auto;
 }
 
@@ -289,13 +289,13 @@ code {
 }
 
 /* 6.2.4. Invite */
-.wrapper_efe67f {
+.wrapper__8a5dd {
     --background-secondary-alt: var(--background-primary);
     --background-tertiary: var(--background-secondary);
     box-shadow: var(--box-shadow-outer-2);
     border: var(--background-primary-border);
 }
 
-.wrapper_efe67f .button__8ec71 {
+.wrapper__8a5dd .button_f73214 {
     background-color: var(--button-selected-background);
 }
