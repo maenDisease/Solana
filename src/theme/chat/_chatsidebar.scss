@@ -1,15 +1,15 @@
 /* Discord added this :D */
-/* .container_def45c .embedWrapper_c143d9:not(.markup_a7e664, .galleryImage__0b906),
-.container_def45c .embedWrapper_c143d9 .embedVideo__0c65b,
-.container_def45c .wrapper__3a7a0 {
+/* .container__694a1 .embedWrapper__47b23:not(.markup_a7e664, .galleryImage_c684f7),
+.container__694a1 .embedWrapper__47b23 .embedVideo__303fe,
+.container__694a1 .wrapper_f09ac7 {
     height: auto !important;
     width: unset !important;
     max-width: max-content !important;
     max-height: 300px;
 }
 
-.container_def45c .embedWrapper_c143d9 .clickableWrapper__64072 img:not(.embedGalleryImageElement_e679aa),
-.container_def45c .embedWrapper_c143d9 [data-fullscreen="false"] video {
+.container__694a1 .embedWrapper__47b23 .clickableWrapper__2d2ea img:not(.embedGalleryImageElement__00516),
+.container__694a1 .embedWrapper__47b23 [data-fullscreen="false"] video {
     position: relative;
     height: auto !important;
     width: unset !important;
@@ -17,17 +17,17 @@
     max-height: 300px;
 }
 
-.thin_b1c063 .embedWrapper_c143d9:not(.markup_a7e664, .galleryImage__0b906),
-.thin_b1c063 .embedWrapper_c143d9 .embedVideo__0c65b,
-.thin_b1c063 .wrapper__3a7a0 {
+.thin_b1c063 .embedWrapper__47b23:not(.markup_a7e664, .galleryImage_c684f7),
+.thin_b1c063 .embedWrapper__47b23 .embedVideo__303fe,
+.thin_b1c063 .wrapper_f09ac7 {
     height: auto !important;
     width: unset !important;
     max-width: max-content !important;
     max-height: 300px;
 }
 
-.thin_b1c063 .embedWrapper_c143d9 .clickableWrapper__64072 img:not(.embedGalleryImageElement_e679aa),
-.thin_b1c063 .embedWrapper_c143d9 [data-fullscreen="false"] video {
+.thin_b1c063 .embedWrapper__47b23 .clickableWrapper__2d2ea img:not(.embedGalleryImageElement__00516),
+.thin_b1c063 .embedWrapper__47b23 [data-fullscreen="false"] video {
     position: relative;
     height: auto !important;
     width: unset !important;
@@ -35,32 +35,32 @@
     max-height: 300px;
 } */
 
-.container_def45c .embedSpotify_d58077.embedWrapper_c143d9,
-.thin_b1c063 .embedSpotify_d58077.embedWrapper_c143d9 {
+.container__694a1 .embedSpotify__13fe9.embedWrapper__47b23,
+.thin_b1c063 .embedSpotify__13fe9.embedWrapper__47b23 {
     max-height: 80px;
 }
 
-.wrapper_bd2abe.noChat_ce920d.video__85ac2.chatSidebarOpen_dfaa6a {
+.wrapper__6bf2d.noChat_ce920d.video__004a2.chatSidebarOpen_f2e544 {
     background-color: transparent;
 }
 
-.chatTarget__0ea5e.floating_f021e2 {
+.chatTarget_f14a03.floating__8f631 {
     background-color: transparent
 }
 
-.chatTarget__0ea5e.container_def45c+.resizeHandle_f1a098 {
+.chatTarget_f14a03.container__694a1+.resizeHandle_cc9d34 {
     width: 0;
     z-index: 1;
 }
 
-.chatTarget__0ea5e.container_def45c+.resizeHandle_f1a098::before {
+.chatTarget_f14a03.container__694a1+.resizeHandle_cc9d34::before {
     content: "";
     height: 100%;
     width: 5px;
     display: block;
 }
 
-.container_def45c {
+.container__694a1 {
     -webkit-filter: none;
     filter: none;
     border-radius: 0 var(--window-border-radius-calc) var(--window-border-radius-calc) 0;
@@ -70,7 +70,7 @@
     backdrop-filter: blur(var(--background-floating-blur-calc));
 }
 
-.container_def45c.floating_f021e2::before {
+.container__694a1.floating__8f631::before {
     content: '';
     height: 100%;
     width: 100%;
@@ -78,48 +78,48 @@
     border-radius: 0 var(--window-border-radius-calc) var(--window-border-radius-calc) 0;
 }
 
-.chat__52833.threadSidebarOpen_fa231d~div .container_def45c,
-.chat__52833.threadSidebarOpen_fa231d~.container_def45c {
+.chat__52833.threadSidebarOpen__62c31~div .container__694a1,
+.chat__52833.threadSidebarOpen__62c31~.container__694a1 {
     border-top: var(--background-tertiary-border-variable-width-a);
     border-right: var(--background-tertiary-border-variable-width-a);
     border-bottom: var(--background-tertiary-border-variable-width-a);
 }
 
-#app-mount .chat__52833.threadSidebarOpen_fa231d:not(.threadSidebarFloating_b980c7) {
+#app-mount .chat__52833.threadSidebarOpen__62c31:not(.threadSidebarFloating__4f63d) {
     border-radius: var(--window-border-radius-calc) 0 0 var(--window-border-radius-calc);
     border-right: 0;
 }
 
-.chat__52833.threadSidebarOpen_fa231d.threadSidebarFloating_b980c7 {
+.chat__52833.threadSidebarOpen__62c31.threadSidebarFloating__4f63d {
     border-radius: var(--window-border-radius-calc);
 }
 
-.wrapper_bd2abe.chatSidebarOpen_dfaa6a .callContainer_cbde45 {
+.wrapper__6bf2d.chatSidebarOpen_f2e544 .callContainer__1477d {
     border-radius: 0;
 }
 
-.container_def45c .container__11d72.themed_b152d4 {
+.container__694a1 .container__26baa.themed_b152d4 {
     background-color: transparent;
 }
 
-.container_def45c .chat__1d65d:before {
+.container__694a1 .chat__1d65d:before {
     display: none;
 }
 
-.container_def45c .iconWrapper__85630 {
+.container__694a1 .iconWrapper__8795c {
     background-color: var(--background-primary);
     border: var(--background-primary-border);
 }
 
-.container_def45c .iconWrapper__85630 .icon__7ed2b {
+.container__694a1 .iconWrapper__8795c .icon__09787 {
     color: var(--interactive-active);
 }
 
-.container_def45c .form__13a2c {
+.container__694a1 .form_d8a4a1 {
     border-top: thin solid transparent;
 }
 
-.chatHeaderBar_c1df53 {
+.chatHeaderBar__9e6ac {
     background-color: var(--background-floating);
     box-shadow: var(--elevation-medium);
     border-bottom: var(--background-primary-border);
@@ -132,28 +132,28 @@
     display: none;
 }
 
-.chatHeaderBar_c1df53.narrow__77960 {
+.chatHeaderBar__9e6ac.narrow__77960 {
     padding-top: 8px;
     padding-bottom: 8px;
 }
 
-.chatHeaderBar_c1df53.narrow__77960 .chatHeaderBarButton__161bb.button_afdfd9 {
+.chatHeaderBar__9e6ac.narrow__77960 .chatHeaderBarButton_aac432.button__581d0 {
     height: unset;
     min-height: unset;
 }
 
-.container__404b9 .heading-xxl-medium-1hl0GL,
-.container__404b9 .heading-xxl-normal-3zbV4t {
+.container__38f29 .heading-xxl-medium-1hl0GL,
+.container__38f29 .heading-xxl-normal-3zbV4t {
     font-family: var(--font-display);
     font-size: 20px;
     line-height: 24px;
 }
 
-.iconWrapper__3e4a9 {
+.iconWrapper_a8f659 {
     margin-top: 0;
     background-color: transparent;
 }
 
-.container__404b9 .tags__3a78e {
+.container__38f29 .tags__3a78e {
     padding: 0 4px 4px 4px;
 }
