@@ -1,8 +1,8 @@
-.sidebar_ded4b5 .channel_c21703 {
+.sidebar_e031be .channel__0aef5 {
     max-width: unset;
 }
 
-#app-mount .name__8d1ec {
+#app-mount .name__4eb92 {
     font-family: var(--font-regular);
     font-size: 14px;
     font-weight: 400;
@@ -12,26 +12,26 @@
     color: var(--text-muted);
 }
 
-.wrapper__9c483.clickable_dbdd2a .arrow_cb03b8.icon_ef4486 {
+.wrapper__07e2f.clickable__797c7 .arrow_cb03b8.icon__3aa8e {
     display: none;
 }
 
-.wrapper__9c483.clickable_dbdd2a:hover .arrow_cb03b8.icon_ef4486 {
+.wrapper__07e2f.clickable__797c7:hover .arrow_cb03b8.icon__3aa8e {
     display: block;
 }
 
-.modeConnected__1c02e .name__8d1ec,
-.modeConnected__1c02e:hover .name__8d1ec,
-.modeSelected__487d6 .name__8d1ec,
-.modeSelected__487d6:hover .name__8d1ec,
-.modeUnread_f74c03 .name__8d1ec,
-.modeUnread_f74c03:hover .name__8d1ec,
-.notInteractive_a7d9fb.modeConnected__1c02e .name__8d1ec,
-.notInteractive_a7d9fb.modeSelected__487d6 .name__8d1ec {
+.modeConnected__52a8f .name__4eb92,
+.modeConnected__52a8f:hover .name__4eb92,
+.modeSelected__473f1 .name__4eb92,
+.modeSelected__473f1:hover .name__4eb92,
+.modeUnreadImportant__35358 .name__4eb92,
+.modeUnreadImportant__35358:hover .name__4eb92,
+.notInteractive_e31551.modeConnected__52a8f .name__4eb92,
+.notInteractive_e31551.modeSelected__473f1 .name__4eb92 {
     color: var(--text-normal);
 }
 
-.unreadRelevant__44f9e {
+.unreadImportant_e8bb44 {
     background-color: var(--text-normal);
 }
 
@@ -39,28 +39,28 @@
     --font-weight-semibold-1x-light-theme: 500;
 }
 
-#app-mount .divider__40683 {
+#app-mount .divider__0c76f {
     border-top: var(--background-modifier-accent-border);
 }
 
-.link__95dc0 {
+.link_ddbb36 {
     border-radius: 6px;
 }
 
-.wrapper__7bcde.modeConnected__1c02e .icon_eff5d4 {
+.wrapper__612a5.modeConnected__52a8f .icon__67ab4 {
     color: var(--status-positive);
 }
 
-.wrapper__7bcde.modeLocked_fcc71a .icon_eff5d4 {
+.wrapper__612a5.modeLocked__6df8a .icon__67ab4 {
     color: var(--status-grey);
 }
 
-.modeUnread_f74c03 .icon_eff5d4,
-.modeUnread_f74c03:hover .icon_eff5d4 {
+.modeUnreadImportant__35358 .icon__67ab4,
+.modeUnreadImportant__35358:hover .icon__67ab4 {
     color: var(--interactive-active);
 }
 
-.link__95dc0 .icon_eff5d4 {
+.link_ddbb36 .icon__67ab4 {
     width: 16px;
     height: 16px;
 }
@@ -77,41 +77,41 @@
     margin-top: -3px;
 }
 
-.bar__004d9:not(.mentionsBar__4b47a) {
+.bar__004d9:not(.mentionsBar__7d867) {
     background-color: var(--background-floating);
     border: var(--background-floating-border);
 }
 
-.bar__004d9 .barText__1a44f {
+.bar__004d9 .barText__32a63 {
     text-transform: capitalize;
 }
 
-.unread__11823.container__88123 {
+.unread__11823.container_fd18f1 {
     display: flex;
     justify-content: center;
 }
 
-html.app-focused .modeSelected__487d6 .link__95dc0,
-html.app-focused .modeSelected__487d6:hover .link__95dc0 {
+html.app-focused .modeSelected__473f1 .link_ddbb36,
+html.app-focused .modeSelected__473f1:hover .link_ddbb36 {
     background-color: var(--brand-experiment);
 }
 
-html.app-focused .modeSelected__487d6 .name__8d1ec,
-html.app-focused .modeSelected__487d6:hover .name__8d1ec {
+html.app-focused .modeSelected__473f1 .name__4eb92,
+html.app-focused .modeSelected__473f1:hover .name__4eb92 {
     color: #fff;
 }
 
-html.app-focused .modeSelected__487d6 .icon_eff5d4,
-html.app-focused .modeSelected__487d6:hover .icon_eff5d4 {
+html.app-focused .modeSelected__473f1 .icon__67ab4,
+html.app-focused .modeSelected__473f1:hover .icon__67ab4 {
     color: #fff;
 }
 
-html.app-focused .modeSelected__487d6 .link__95dc0 .actionIcon_d679b5,
-html.app-focused .modeSelected__487d6:hover .link__95dc0 .actionIcon_d679b5 {
+html.app-focused .modeSelected__473f1 .link_ddbb36 .actionIcon_b149a2,
+html.app-focused .modeSelected__473f1:hover .link_ddbb36 .actionIcon_b149a2 {
     color: var(--text-normal);
 }
 
-html.app-focused .modeSelected__487d6 .link__95dc0 .subtitle_bba2b7,
-html.app-focused .modeSelected__487d6:hover .link__95dc0 .subtitle_bba2b7 {
+html.app-focused .modeSelected__473f1 .link_ddbb36 .subtitle_eb6026,
+html.app-focused .modeSelected__473f1:hover .link_ddbb36 .subtitle_eb6026 {
     color: #fff !important;
 }

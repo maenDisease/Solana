@@ -1,4 +1,4 @@
-#app-mount .pageWrapper_fef757 {
+#app-mount .pageWrapper_c182d3 {
     border-radius: var(--window-border-radius-calc);
     background: var(--background-tertiary-a);
     border-left: var(--background-tertiary-border-variable-divider-a);
@@ -9,7 +9,7 @@
     overflow: hidden;
 }
 
-.theme-light #app-mount .pageWrapper_fef757 {
+.theme-light #app-mount .pageWrapper_c182d3 {
     border-left: var(--background-tertiary-border-a);
 }
 
@@ -24,28 +24,28 @@
     border: var(--background-primary-border);
 }
 
-.searchBox_a63854 {
+.searchBox__56feb {
     border-radius: 6px;
 }
 
 #app-mount .card__86773,
-#app-mount .iconMask__1aff7 {
+#app-mount .iconMask__4092e {
     background-color: var(--background-primary);
 }
 
 #app-mount .card__86773,
-#app-mount .iconMask__1aff7 {
+#app-mount .iconMask__4092e {
     background-color: var(--background-primary);
 }
 
 #app-mount .card__86773:hover,
-#app-mount .card__86773:hover .iconMask__1aff7,
-#app-mount .iconMask__1aff7:hover,
-#app-mount .iconMask__1aff7:hover .iconMask__1aff7 {
+#app-mount .card__86773:hover .iconMask__4092e,
+#app-mount .iconMask__4092e:hover,
+#app-mount .iconMask__4092e:hover .iconMask__4092e {
     background-color: var(--background-secondary);
 }
 
-.scroller_e9501c {
+.scroller__32e73 {
     border-radius: var(--window-border-radius-calc);
     background: var(--background-tertiary-a);
     border-left: var(--background-tertiary-border-variable-divider-a);
@@ -55,25 +55,25 @@
     backdrop-filter: blur(var(--window-blur-calc));
 }
 
-.theme-light .scroller_e9501c {
+.theme-light .scroller__32e73 {
     border-left: var(--background-tertiary-border-a);
 }
 
-.container__8877d {
+.container_c83a4f {
     background-color: var(--background-primary);
     border: var(--background-primary-border);
 }
 
-.name__16feb {
+.name__7afe8 {
     font-family: var(--font-regular);
     font-size: 14px;
     font-weight: 400;
 }
 
-html:not(.app-focused) .categoryItem_b1be5c.selectedCategoryItem__0bf4c {
+html:not(.app-focused) .categoryItem__0608f.selectedCategoryItem__3e361 {
     color: var(--text-normal);
 }
 
-html:not(.app-focused) .categoryItem_b1be5c.selectedCategoryItem__0bf4c .itemInner__9e755 {
+html:not(.app-focused) .categoryItem__0608f.selectedCategoryItem__3e361 .itemInner_eedb2b {
     background-color: var(--background-modifier-selected);
 }
