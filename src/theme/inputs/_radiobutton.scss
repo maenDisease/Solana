@@ -1,4 +1,4 @@
-.item_b7fb7e .radioBar__40e1b svg {
+.item_b7fb7e .radioBar__70669 svg {
     display: flex;
     box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
     border-radius: 50px;
@@ -8,18 +8,18 @@
     background-color: var(--button-selected-background);
 }
 
-.item_b7fb7e .radioBar__40e1b svg path {
+.item_b7fb7e .radioBar__70669 svg path {
     display: none;
 }
 
-.item_b7fb7e[aria-checked="true"] .radioBar__40e1b svg {
+.item_b7fb7e[aria-checked="true"] .radioBar__70669 svg {
     background: var(--button-brand-gradient);
 }
 
-.item_b7fb7e[aria-checked="true"] .radioBar__40e1b svg circle {
+.item_b7fb7e[aria-checked="true"] .radioBar__70669 svg circle {
     r: 6px;
 }
 
-.radioIconForeground__99b9b {
+.radioIconForeground__9ca1e {
     color: #fff;
 }
