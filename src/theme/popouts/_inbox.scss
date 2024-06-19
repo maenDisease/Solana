@@ -1,4 +1,4 @@
-.recentMentionsPopout__40c54 {
+.recentMentionsPopout_ddb5b4 {
     max-height: 78vh !important;
     background-color: var(--background-tertiary);
     -webkit-box-shadow: var(--elevation-stroke), var(--elevation-high);
@@ -7,7 +7,7 @@
     border-radius: 8px;
 }
 
-.header__21b33 {
+.header_ac90a2 {
     position: relative;
     z-index: 11;
     background-color: var(--background-accent);
@@ -15,32 +15,32 @@
     box-shadow: var(--elevation-low);
 }
 
-.header__58a85 {
+.header_f0cd33 {
     height: 52px;
     min-height: 52px;
 }
 
-.controls_fa77da {
+.controls_f0cd33 {
     display: flex;
     align-items: center;
 }
 
-.messagesPopout__28784 {
+.messagesPopout_ac90a2 {
     padding: 16px;
 }
 
-.recentMentionsPopout__40c54 .container__7c2c1 {
+.recentMentionsPopout_ddb5b4 .container_ddb5b4 {
     margin: 0;
     margin-bottom: 16px;
     padding-right: unset;
 }
 
-.messagesPopoutWrap__10dd1 .topPill__63ad4 {
+.messagesPopoutWrap_ac90a2 .topPill_a0 {
     border: var(--background-primary-border);
     background: var(--background-primary);
 }
 
-.messageGroupWrapper__1fce2 {
+.messageGroupWrapper_ac90a2 {
     position: relative;
     background: var(--background-secondary);
     border: var(--background-secondary-border);
@@ -53,21 +53,21 @@
     overflow: hidden;
 }
 
-.recentMentionsPopout__40c54 .container__7c2c1,
-.recentMentionsPopout__40c54 .channel__36a7e {
+.recentMentionsPopout_ddb5b4 .container_ddb5b4,
+.recentMentionsPopout_ddb5b4 .channel_d09ffd {
     border: var(--background-secondary-border);
 }
 
-#app-mount .recentMentionsPopout__40c54 .container__7c2c1,
-#app-mount .recentMentionsPopout__40c54 .channel__36a7e,
-#app-mount .recentMentionsPopout__40c54 .channelHeader_ea0f89 {
+#app-mount .recentMentionsPopout_ddb5b4 .container_ddb5b4,
+#app-mount .recentMentionsPopout_ddb5b4 .channel_d09ffd,
+#app-mount .recentMentionsPopout_ddb5b4 .channelHeader_f3978e {
     background-color: var(--background-secondary);
 }
 
-.recentMentionsPopout__40c54 .channelHeader_ea0f89 {
+.recentMentionsPopout_ddb5b4 .channelHeader_f3978e {
     border-bottom: var(--background-secondary-border);
 }
 
-.recentMentionsPopout__40c54 .header__58a85 .tab_a8a066 {
+.recentMentionsPopout_ddb5b4 .header_f0cd33 .tab_f0cd33 {
     height: unset;
 }

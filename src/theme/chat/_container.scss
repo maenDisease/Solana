@@ -1,4 +1,4 @@
-#app-mount:not(:-webkit-full-screen) .chat__52833:not(.container__6b2e5) {
+#app-mount:not(:-webkit-full-screen) .chat_a7d72e:not(.container_c2efea) {
     border-radius: var(--window-border-radius-calc);
     background-color: transparent;
     border-left: var(--background-tertiary-border-variable-divider-a);
@@ -7,7 +7,7 @@
     border-right: var(--background-tertiary-border-variable-width-a);
 }
 
-.chat__52833::before {
+.chat_a7d72e::before {
     content: "";
     position: absolute;
     top: 0;
@@ -18,24 +18,24 @@
     background: var(--window-background-image-calc);
 }
 
-.chat__52833 .content__01e65,
-.chat__52833 .container__26baa {
+.chat_a7d72e .content_a7d72e,
+.chat_a7d72e .container_e44302 {
     backdrop-filter: blur(var(--window-blur-calc));
 }
 
-.chatContent_f087cb {
+.chatContent_a7d72e {
     background: transparent;
 }
 
-.theme-light .chat__52833 {
+.theme-light .chat_a7d72e {
     border-left: var(--background-tertiary-border-a);
 }
 
-.content__01e65:not(.noChat_fed339) {
+.content_a7d72e:not(.noChat_a7d72e) {
     background: var(--window-color-calc, var(--background-secondary-a));
 }
 
-.emptyChannelIcon_d45c50 {
+.emptyChannelIcon_c2668b {
     background-color: var(--background-primary);
     border: var(--background-secondary-border);
 }

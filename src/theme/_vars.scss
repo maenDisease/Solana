@@ -291,9 +291,9 @@
     --brand-new-900: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 50%), 3.1%);
 }
 
-.sidebar-1tnWFu>*:first-child:not(.panels-3wFtMD),
-.container-YkUktl,
-.sidebar-nqHbhN,
+.sidebar_a4d4d9>*:first-child:not(.panels_a4d4d9),
+.container_b2ca13,
+.sidebar_c25c6d,
 #channelTabs-container {
     --background-modifier-hover-s: 13%;
     --background-modifier-hover-l: 48%;
@@ -327,9 +327,9 @@
     --background-modifier-accent: hsla(var(--background-accent-hue), var(--background-modifier-accent-s), calc(var(--background-modifier-accent-l) * calc(1 - var(--text-brightness-src))), var(--background-modifier-accent-a));
 }
 
-.chat-2ZfjoI>.container-ZMc96U,
-.chat-2ZfjoI>.content-1jQy2l,
-#app-mount .container-2cd8Mz {
+.chat_a7d72e>.container_e44302,
+.chat_a7d72e>.content_a7d72e,
+#app-mount .container_c2739c {
     --text-brightness-src: var(--chat-text-brightness);
 
     --header-primary: hsl(var(--background-accent-hue), var(--header-primary-s), calc(var(--header-primary-l) * calc(1 + var(--text-brightness-src))));

@@ -1,4 +1,4 @@
-#app-mount .pageWrapper_c182d3 {
+#app-mount .pageWrapper_a3a4ce {
     border-radius: var(--window-border-radius-calc);
     background: var(--background-tertiary-a);
     border-left: var(--background-tertiary-border-variable-divider-a);
@@ -9,15 +9,15 @@
     overflow: hidden;
 }
 
-.theme-light #app-mount .pageWrapper_c182d3 {
+.theme-light #app-mount .pageWrapper_a3a4ce {
     border-left: var(--background-tertiary-border-a);
 }
 
-.layout_bb8e67 {
+.layout_e9f61e {
     border-radius: 8px;
 }
 
-.card__86773 {
+.card_eb1ca6 {
     --background-floating: var(--background-primary);
     --background-tertiary: var(--background-secondary);
     box-shadow: var(--box-shadow-outer-2);
@@ -28,24 +28,24 @@
     border-radius: 6px;
 }
 
-#app-mount .card__86773,
-#app-mount .iconMask__4092e {
+#app-mount .card_eb1ca6,
+#app-mount .iconMask_eb1ca6 {
     background-color: var(--background-primary);
 }
 
-#app-mount .card__86773,
-#app-mount .iconMask__4092e {
+#app-mount .card_eb1ca6,
+#app-mount .iconMask_eb1ca6 {
     background-color: var(--background-primary);
 }
 
-#app-mount .card__86773:hover,
-#app-mount .card__86773:hover .iconMask__4092e,
-#app-mount .iconMask__4092e:hover,
-#app-mount .iconMask__4092e:hover .iconMask__4092e {
+#app-mount .card_eb1ca6:hover,
+#app-mount .card_eb1ca6:hover .iconMask_eb1ca6,
+#app-mount .iconMask_eb1ca6:hover,
+#app-mount .iconMask_eb1ca6:hover .iconMask_eb1ca6 {
     background-color: var(--background-secondary);
 }
 
-.scroller__32e73 {
+.scroller_a39aa3 {
     border-radius: var(--window-border-radius-calc);
     background: var(--background-tertiary-a);
     border-left: var(--background-tertiary-border-variable-divider-a);
@@ -55,25 +55,25 @@
     backdrop-filter: blur(var(--window-blur-calc));
 }
 
-.theme-light .scroller__32e73 {
+.theme-light .scroller_a39aa3 {
     border-left: var(--background-tertiary-border-a);
 }
 
-.container_c83a4f {
+.container_f11cbf {
     background-color: var(--background-primary);
     border: var(--background-primary-border);
 }
 
-.name__7afe8 {
+.name_e9f61e {
     font-family: var(--font-regular);
     font-size: 14px;
     font-weight: 400;
 }
 
-html:not(.app-focused) .categoryItem__0608f.selectedCategoryItem__3e361 {
+html:not(.app-focused) .categoryItem_c72b37.selectedCategoryItem_c72b37 {
     color: var(--text-normal);
 }
 
-html:not(.app-focused) .categoryItem__0608f.selectedCategoryItem__3e361 .itemInner_eedb2b {
+html:not(.app-focused) .categoryItem_c72b37.selectedCategoryItem_c72b37 .itemInner_c72b37 {
     background-color: var(--background-modifier-selected);
 }

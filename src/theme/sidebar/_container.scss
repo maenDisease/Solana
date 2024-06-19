@@ -1,16 +1,16 @@
-#app-mount .container__7e23c,
-.sidebar_e031be,
-#app-mount .container_debb33 {
+#app-mount .container_ee69e0,
+.sidebar_a4d4d9,
+#app-mount .container_b2ca13 {
     background-color: transparent;
 }
 
-.sidebar_e031be {
+.sidebar_a4d4d9 {
     width: var(--sidebar-width);
     --channel-icon: var(--brand-experiment);
     --elevation-low: 0 1px 0 hsl(var(--background-accent-hue), 6%, 0%, 0.8), 0 2px 0 hsl(var(--accent-hue), 6%, 0%, 0.1);
 }
 
-#app-mount:not(:-webkit-full-screen) .sidebar_e031be {
+#app-mount:not(:-webkit-full-screen) .sidebar_a4d4d9 {
     border-radius: var(--window-border-radius-calc);
     margin-right: 5px;
 }

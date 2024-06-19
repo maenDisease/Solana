@@ -1,14 +1,14 @@
-#app-mount>.errorPage_a41002::before,
-#app-mount>.errorPage_a41002::after {
+#app-mount>.errorPage_dd2aa2::before,
+#app-mount>.errorPage_dd2aa2::after {
     color: #fff;
 }
 
-.theme-light #app-mount>.errorPage_a41002::before,
-.theme-light #app-mount>.errorPage_a41002::after {
+.theme-light #app-mount>.errorPage_dd2aa2::before,
+.theme-light #app-mount>.errorPage_dd2aa2::after {
     color: black;
 }
 
-.wrapper__77675.errorPage_a41002>.flex_f18b02 {
+.wrapper_b06619.errorPage_dd2aa2>.flex_bba380 {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -26,15 +26,15 @@
     -webkit-app-region: drag;
 }
 
-.wrapper__77675.errorPage_a41002 {
+.wrapper_b06619.errorPage_dd2aa2 {
     background-color: hsla(0, 0%, calc(var(--background-floating-l) * (1 + var(--background-overlay-color-lightness))), var(--background-overlay-opacity));
 }
 
-.wrapper__77675.errorPage_a41002 .text__6066f {
+.wrapper_b06619.errorPage_dd2aa2 .text_b06619 {
     width: 320px;
 }
 
-.wrapper__77675.errorPage_a41002 .button__581d0.sizeLarge_b395a7 {
+.wrapper_b06619.errorPage_dd2aa2 .button_dd4f85.sizeLarge_dd4f85 {
     width: 320px;
     min-width: 320px;
     height: 36px;
@@ -43,7 +43,7 @@
     -webkit-app-region: no-drag;
 }
 
-#app-mount .wrapper__77675.errorPage_a41002 .image_e0cb48 {
+#app-mount .wrapper_b06619.errorPage_dd2aa2 .image_b06619 {
     background-image: url('https://nyri4.github.io/Discolored/assets/crash.svg');
     filter: drop-shadow(var(--box-shadow-outer-3));
     margin-bottom: 20px;
@@ -52,25 +52,25 @@
     background-position: center;
 }
 
-.theme-dark .wrapper__77675.errorPage_a41002 .title__5060d,
-.theme-dark .wrapper__77675.errorPage_a41002 .note__35490 {
+.theme-dark .wrapper_b06619.errorPage_dd2aa2 .title_b06619,
+.theme-dark .wrapper_b06619.errorPage_dd2aa2 .note_b06619 {
     color: var(--header-primary);
 }
 
-.wrapper__77675.errorPage_a41002 .title__5060d {
+.wrapper_b06619.errorPage_dd2aa2 .title_b06619 {
     margin-bottom: 20px;
     font-size: 20px;
     font-family: var(--font-display);
     color: black;
 }
 
-.wrapper__77675.errorPage_a41002 .note__35490 {
+.wrapper_b06619.errorPage_dd2aa2 .note_b06619 {
     font-size: 15px;
     font-weight: 500;
     color: black;
     margin: 0 0;
 }
 
-.wrapper__77675.errorPage_a41002 .note__35490 p {
+.wrapper_b06619.errorPage_dd2aa2 .note_b06619 p {
     margin: 0 0;
 }

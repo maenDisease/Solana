@@ -1,21 +1,21 @@
-.wrapper__216eb {
+.wrapper_fea3ef {
     background-color: transparent;
     justify-content: center;
 }
 
-.guilds__2b93a {
+.guilds_a4d4d9 {
     margin-top: 24px;
     margin-bottom: 24px;
 }
 
-.tree__7a511 {
+.tree_fea3ef {
     justify-content: center;
     align-self: center;
     height: fit-content;
     max-height: calc(100% - 48px);
 }
 
-#app-mount .scroller_de945b {
+#app-mount .scroller_fea3ef {
     contain: unset;
     border-radius: calc(1.1rem * (1 + var(--dock-border-radius)));
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
@@ -25,20 +25,20 @@
     backdrop-filter: blur(var(--dock-blur-calc));
 }
 
-.theme-light .guilds__2b93a:not(.theme-dark) .scroller_de945b {
+.theme-light .guilds_a4d4d9:not(.theme-dark) .scroller_fea3ef {
     background-color: var(--background-floating-40a);
     border-top: var(--background-floating-primary-border-a);
     border-right: var(--background-floating-primary-border-a);
 }
 
-.container__7e23c[aria-label^='Server for Disease Control ('] .container_f41675::after,
-.container__7e23c[aria-label^='Favorites ('] .container_f41675::after {
+.container_ee69e0[aria-label^='Server for Disease Control ('] .container_fd6364::after,
+.container_ee69e0[aria-label^='Favorites ('] .container_fd6364::after {
     border-top-left-radius: var(--window-border-radius-calc);
     border-top-right-radius: var(--window-border-radius-calc);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
 
-.container__7e23c[aria-label^='Server for Disease Control ('] .headerContent__6fcc7 {
+.container_ee69e0[aria-label^='Server for Disease Control ('] .headerContent_fd6364 {
     color: hsl(var(--background-accent-hue), 2%, 92%);
 }

@@ -1,6 +1,6 @@
 /* Visible VC Text Button */
 @media (hover: hover) {
-    .iconVisibility__2ecfa:hover .iconItem__56989 {
+    .iconVisibility_f6f816:hover .iconItem_f6f816 {
         display: flex;
     }
 }
@@ -17,55 +17,55 @@
     background-color: var(--background-modifier-selected);
 }
 
-.openChatIconItem-2kj5qO .actionIcon_b149a2 {
+.openChatIconItem-2kj5qO .actionIcon_f6f816 {
     color: var(--channels-default);
 }
 
 
 
-.panels__58331 {
+.panels_a4d4d9 {
     background-color: transparent;
 }
 
-.container_e1958d {
+.container_adcaac {
     border-bottom: none;
     background: none;
 }
 
-.theme-dark .wrapper_e832ee,
-.theme-dark .panel_bd8c76 {
+.theme-dark .wrapper_adcaac,
+.theme-dark .panel_bf1a22 {
     --button-selected-background: #fff;
 }
 
-.button_b82d53.buttonColor__7bad9.buttonActive_ae686f,
-.button_b82d53 .buttonColor__7bad9.buttonActive_ae686f {
+.button_adcaac.buttonColor_adcaac.buttonActive_adcaac,
+.button_adcaac .buttonColor_adcaac.buttonActive_adcaac {
     background-color: var(--button-selected-background);
     color: var(--interactive-active);
     font-weight: 600;
 }
 
-.wrapper_e832ee .button_b82d53.buttonColor__7bad9.buttonActive_ae686f,
-.button_b82d53 .buttonColor__7bad9.buttonActive_ae686f {
+.wrapper_adcaac .button_adcaac.buttonColor_adcaac.buttonActive_adcaac,
+.button_adcaac .buttonColor_adcaac.buttonActive_adcaac {
     --interactive-active: #060607;
 }
 
-.button_b82d53.buttonColor__7bad9.buttonActive_ae686f .buttonIcon__64412,
-.button_b82d53 .buttonColor__7bad9.buttonActive_ae686f .buttonIcon__64412 {
+.button_adcaac.buttonColor_adcaac.buttonActive_adcaac .buttonIcon_adcaac,
+.button_adcaac .buttonColor_adcaac.buttonActive_adcaac .buttonIcon_adcaac {
     color: var(--status-positive);
 }
 
-.button_b82d53.buttonColor__7bad9.buttonActive_ae686f:hover,
-.button_b82d53 .buttonColor__7bad9.buttonActive_ae686f:hover {
+.button_adcaac.buttonColor_adcaac.buttonActive_adcaac:hover,
+.button_adcaac .buttonColor_adcaac.buttonActive_adcaac:hover {
     background-color: var(--button-selected-background);
 }
 
-.button_b82d53.buttonColor__7bad9 {
+.button_adcaac.buttonColor_adcaac {
     background-color: var(--background-modifier-accent);
     color: var(--text-normal);
     border: var(--background-modifier-accent-border);
 }
 
-.panel_bd8c76.activityPanel_b73e7a {
+.panel_bf1a22.activityPanel_a4d4d9 {
     border-bottom: none;
     background-color: var(--background-floating-40a);
     border-radius: 12px 12px 0 0;
@@ -74,33 +74,33 @@
     border-right: var(--background-tertiary-border);
 }
 
-.wrapper_e832ee:not(:empty) {
+.wrapper_adcaac:not(:empty) {
     background-color: var(--background-floating-40a);
     border-top: var(--background-tertiary-border);
     border-radius: 12px;
     border: var(--background-tertiary-border);
 }
 
-.wrapper_e832ee:empty+.container_debb33 {
+.wrapper_adcaac:empty+.container_b2ca13 {
     border-top: var(--background-modifier-accent-border);
 }
 
-.panel_bd8c76.activityPanel_b73e7a+.wrapper_e832ee:not(:empty) {
+.panel_bf1a22.activityPanel_a4d4d9+.wrapper_adcaac:not(:empty) {
     border-radius: 0 0 12px 12px;
     border-top: none;
 }
 
-.panel_bd8c76.activityPanel_b73e7a+.wrapper_e832ee:empty+.container-6sXIoE.withTimeline-824fT_ {
+.panel_bf1a22.activityPanel_a4d4d9+.wrapper_adcaac:empty+.container-6sXIoE.withTimeline-824fT_ {
     border-bottom: none;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
 }
 
-.panel_bd8c76.activityPanel_b73e7a+.wrapper_e832ee:empty+.container-6sXIoE.withTimeline-824fT_+.container_debb33 {
+.panel_bf1a22.activityPanel_a4d4d9+.wrapper_adcaac:empty+.container-6sXIoE.withTimeline-824fT_+.container_b2ca13 {
     border-top: var(--background-tertiary-border);
 }
 
-.panels__58331 .button_ae40a4:hover {
+.panels_a4d4d9 .button_f67531:hover {
     border-radius: 5px;
     border: var(--background-tertiary-border);
 }
@@ -112,7 +112,7 @@
     background-color: var(--background-primary);
 }
 
-.group-1_ptLP.flex__9487d {
+.group-1_ptLP.flex_ec1a20 {
     border: var(--background-secondary-border);
     border-radius: 8px;
     background-color: var(--background-tertiary);
@@ -149,11 +149,11 @@
     border: 1px solid transparent;
 }
 
-.root_a28985.fullscreenOnMobile__05784 .modalSize-3WSXDU>.segmentContainer-358IfE {
+.root_f9a4c9.fullscreenOnMobile_f9a4c9 .modalSize-3WSXDU>.segmentContainer-358IfE {
     margin-top: 8px;
 }
 
-.root_a28985.fullscreenOnMobile__05784 .container-2zEtSe.segmentControl-3edJKN {
+.root_f9a4c9.fullscreenOnMobile_f9a4c9 .container-2zEtSe.segmentControl-3edJKN {
     border: var(--background-secondary-border);
     background-color: var(--background-tertiary);
     border-radius: 8px;
@@ -162,30 +162,30 @@
     margin: 0 auto;
 }
 
-.root_a28985.fullscreenOnMobile__05784 .item-LN5zvA.segmentControlOption-3MnJdT {
+.root_f9a4c9.fullscreenOnMobile_f9a4c9 .item-LN5zvA.segmentControlOption-3MnJdT {
     border-radius: 6px;
     margin: 1px;
     padding: 2px 8px;
     border: 1px solid transparent;
 }
 
-.root_a28985.fullscreenOnMobile__05784 .item-LN5zvA.segmentControlOption-3MnJdT:not(.selected-2xa993):hover {
+.root_f9a4c9.fullscreenOnMobile_f9a4c9 .item-LN5zvA.segmentControlOption-3MnJdT:not(.selected-2xa993):hover {
     color: var(--interactive-hover);
     background-color: var(--background-modifier-hover)
 }
 
-.root_a28985.fullscreenOnMobile__05784 .item-LN5zvA.segmentControlOption-3MnJdT:not(.selected-2xa993):active {
+.root_f9a4c9.fullscreenOnMobile_f9a4c9 .item-LN5zvA.segmentControlOption-3MnJdT:not(.selected-2xa993):active {
     color: var(--interactive-active);
     background-color: var(--background-modifier-active)
 }
 
-.root_a28985.fullscreenOnMobile__05784 .item-LN5zvA.segmentControlOption-3MnJdT.selected-2xa993 {
+.root_f9a4c9.fullscreenOnMobile_f9a4c9 .item-LN5zvA.segmentControlOption-3MnJdT.selected-2xa993 {
     background-color: var(--button-selected-background);
     border-top-color: rgba(255, 255, 255, 0.2);
     box-shadow: var(--btn-outer-shadow);
 }
 
-.root_a28985.fullscreenOnMobile__05784 .upsellBanner-1tVKtW {
+.root_f9a4c9.fullscreenOnMobile_f9a4c9 .upsellBanner-1tVKtW {
     cursor: pointer;
     margin-top: 8px;
     padding: 0;
@@ -196,19 +196,19 @@
     box-shadow: var(--btn-outer-shadow);
 }
 
-.root_a28985.fullscreenOnMobile__05784 .upsellBanner-1tVKtW svg.white-2rWWmN {
+.root_f9a4c9.fullscreenOnMobile_f9a4c9 .upsellBanner-1tVKtW svg.white-2rWWmN {
     height: 16px;
     width: 22px;
 }
 
-.root_a28985.fullscreenOnMobile__05784 .upsellBanner-1tVKtW>.iconTextContainer-Z3gitj .upsellText-3mrdFJ {
+.root_f9a4c9.fullscreenOnMobile_f9a4c9 .upsellBanner-1tVKtW>.iconTextContainer-Z3gitj .upsellText-3mrdFJ {
     position: absolute;
     color: var(--text-normal);
     transform: translateX(-216px);
     width: fit-content;
 }
 
-.root_a28985.fullscreenOnMobile__05784 .upsellBanner-1tVKtW>.whiteTextLink-2_hsDw {
+.root_f9a4c9.fullscreenOnMobile_f9a4c9 .upsellBanner-1tVKtW>.whiteTextLink-2_hsDw {
     position: absolute;
     color: var(--text-normal);
     transform: translateX(-64px);
